@@ -1,0 +1,16 @@
+# Build output — regenerate with `node tools/build.mjs`
+dist/
+
+# Graded/derivative imagery — regenerate with `node tools/images.mjs`
+assets/generated/
+
+# Source frames pulled from the Webflow CDN. Not ours to redistribute, and
+# `node tools/fetch-assets.mjs` restores them. See CLIENT_ACTIONS.md.
+assets/source/
+
+node_modules/
+.DS_Store
+Thumbs.db
+*.log
+.vercel
+.netlify

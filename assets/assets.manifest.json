@@ -1,0 +1,243 @@
+{
+  "generated": "2026-07-30T15:16:20.966Z",
+  "note": "Every entry is a Webflow-processed derivative unless the client supplies camera originals. See CLIENT_ACTIONS.md — original files are the single cheapest quality win available.",
+  "provenance": "source:webflow-derivative",
+  "assets": [
+    {
+      "w": 2000,
+      "h": 1348,
+      "kind": "webp/extended",
+      "filename": "LACLINIC DENTAL -06.webp",
+      "group": "shoot",
+      "url": "https://cdn.prod.website-files.com/660ea309238277de52c19b4d/679de7fa88bb741fd83043e8_LACLINIC%20DENTAL%20-06.webp",
+      "bytes": 258576,
+      "cached": true
+    },
+    {
+      "w": 2000,
+      "h": 1444,
+      "kind": "webp/extended",
+      "filename": "LACLINIC DENTAL -08.webp",
+      "group": "shoot",
+      "url": "https://cdn.prod.website-files.com/660ea309238277de52c19b4d/679de7fa2374ac73ed9316a6_LACLINIC%20DENTAL%20-08.webp",
+      "bytes": 288246,
+      "cached": true
+    },
+    {
+      "w": 2000,
+      "h": 1444,
+      "kind": "webp/extended",
+      "filename": "LACLINIC DENTAL -09.webp",
+      "group": "shoot",
+      "url": "https://cdn.prod.website-files.com/660ea309238277de52c19b4d/679de7fa839d85f8cf0d408c_LACLINIC%20DENTAL%20-09.webp",
+      "bytes": 367628,
+      "cached": true
+    },
+    {
+      "w": 2000,
+      "h": 1569,
+      "kind": "webp/extended",
+      "filename": "LACLINIC DENTAL -10.webp",
+      "group": "shoot",
+      "url": "https://cdn.prod.website-files.com/660ea309238277de52c19b4d/679de7fa9692e37939aa4ec9_LACLINIC%20DENTAL%20-10.webp",
+      "bytes": 290000,
+      "cached": true
+    },
+    {
+      "w": 2000,
+      "h": 2920,
+      "kind": "webp/extended",
+      "filename": "LACLINIC DENTAL -23.webp",
+      "group": "shoot",
+      "url": "https://cdn.prod.website-files.com/660ea309238277de52c19b4d/679de7c73f7f3ff9adeee023_LACLINIC%20DENTAL%20-23.webp",
+      "bytes": 383334,
+      "cached": true
+    },
+    {
+      "w": 2220,
+      "h": 1541,
+      "kind": "webp/extended",
+      "filename": "LACLINIC DENTAL -25.webp",
+      "group": "shoot",
+      "url": "https://cdn.prod.website-files.com/660ea309238277de52c19b4d/679de7fad5f7c58a2cfcf63b_LACLINIC%20DENTAL%20-25.webp",
+      "bytes": 335518,
+      "cached": true
+    },
+    {
+      "w": 3000,
+      "h": 2000,
+      "kind": "webp/extended",
+      "filename": "LACLINIC DENTAL -26.webp",
+      "group": "shoot",
+      "url": "https://cdn.prod.website-files.com/660ea309238277de52c19b4d/679de7c869c32a89df8fc7ce_LACLINIC%20DENTAL%20-26.webp",
+      "bytes": 688088,
+      "cached": true
+    },
+    {
+      "w": 2000,
+      "h": 3000,
+      "kind": "webp/extended",
+      "filename": "LACLINIC DENTAL -29.webp",
+      "group": "shoot",
+      "url": "https://cdn.prod.website-files.com/660ea309238277de52c19b4d/679de7c7eeb6bb71c7c5c623_LACLINIC%20DENTAL%20-29.webp",
+      "bytes": 508476,
+      "cached": true
+    },
+    {
+      "w": 3000,
+      "h": 2000,
+      "kind": "webp/extended",
+      "filename": "LACLINIC DENTAL -31.webp",
+      "group": "shoot",
+      "url": "https://cdn.prod.website-files.com/660ea309238277de52c19b4d/679de7c9ffc1726ff60a7694_LACLINIC%20DENTAL%20-31.webp",
+      "bytes": 747618,
+      "cached": true
+    },
+    {
+      "w": 3000,
+      "h": 2000,
+      "kind": "webp/extended",
+      "filename": "LACLINIC DENTAL -38.webp",
+      "group": "shoot",
+      "url": "https://cdn.prod.website-files.com/660ea309238277de52c19b4d/679de7c8d61929b9538143d5_LACLINIC%20DENTAL%20-38.webp",
+      "bytes": 600428,
+      "cached": true
+    },
+    {
+      "w": 3000,
+      "h": 2000,
+      "kind": "webp/extended",
+      "filename": "LACLINIC DENTAL -53.webp",
+      "group": "shoot",
+      "url": "https://cdn.prod.website-files.com/660ea309238277de52c19b4d/679de7c769c32a89df8fc735_LACLINIC%20DENTAL%20-53.webp",
+      "bytes": 473612,
+      "cached": true
+    },
+    {
+      "w": 3000,
+      "h": 2000,
+      "kind": "webp/extended",
+      "filename": "LACLINIC DENTAL -59.webp",
+      "group": "shoot",
+      "url": "https://cdn.prod.website-files.com/660ea309238277de52c19b4d/679de7c94485cc2f9b3df7cc_LACLINIC%20DENTAL%20-59.webp",
+      "bytes": 642704,
+      "cached": true
+    },
+    {
+      "w": 3000,
+      "h": 2000,
+      "kind": "webp/extended",
+      "filename": "LACLINIC DENTAL -62.webp",
+      "group": "shoot",
+      "url": "https://cdn.prod.website-files.com/660ea309238277de52c19b4d/679de7c86da6369dbf7f66c3_LACLINIC%20DENTAL%20-62.webp",
+      "bytes": 476708,
+      "cached": true
+    },
+    {
+      "w": 1024,
+      "h": 1024,
+      "kind": "webp/lossy",
+      "filename": "w-084.webp",
+      "group": "shoot",
+      "url": "https://cdn.prod.website-files.com/660ea309238277de52c19b4d/660ea309238277de52c19d5c_w-084.webp",
+      "bytes": 71382,
+      "cached": false
+    },
+    {
+      "w": 1620,
+      "h": 1620,
+      "kind": "webp/extended",
+      "filename": "Dr. Ludovic Altermatt -Laclinic Dental.webp",
+      "group": "portrait",
+      "slug": "ludovic-altermatt",
+      "url": "https://cdn.prod.website-files.com/660ea309238277de52c19b4d/6992e2c8afc583155dc8a15e_Dr.%20Ludovic%20Altermatt%20-Laclinic%20Dental.webp",
+      "bytes": 62608,
+      "cached": true
+    },
+    {
+      "w": 1620,
+      "h": 1620,
+      "kind": "webp/extended",
+      "filename": "Omid Hadadian Moghadam - Laclinic Dental.webp",
+      "group": "portrait",
+      "slug": "omid-hadadian-moghadam",
+      "url": "https://cdn.prod.website-files.com/660ea309238277de52c19b4d/6992e2c82ffa2160d0de2af7_Omid%20Hadadian%20Moghadam%20-%20Laclinic%20Dental.webp",
+      "bytes": 50086,
+      "cached": true
+    },
+    {
+      "w": 1620,
+      "h": 1620,
+      "kind": "webp/extended",
+      "filename": "Katrien - Laclinic Dental.webp",
+      "group": "portrait",
+      "slug": "katrien-vr",
+      "url": "https://cdn.prod.website-files.com/660ea309238277de52c19b4d/6992e2c886999dec4e22bb4e_Katrien%20-%20Laclinic%20Dental.webp",
+      "bytes": 38750,
+      "cached": true
+    },
+    {
+      "w": 1620,
+      "h": 1620,
+      "kind": "webp/extended",
+      "filename": "Annemie - Laclinic Dental.webp",
+      "group": "portrait",
+      "slug": "annemie",
+      "url": "https://cdn.prod.website-files.com/660ea309238277de52c19b4d/6992e2c851bacfdc67375903_Annemie%20-%20Laclinic%20Dental.webp",
+      "bytes": 78866,
+      "cached": true
+    },
+    {
+      "w": 1620,
+      "h": 1620,
+      "kind": "webp/extended",
+      "filename": "Ana-Rita Marques Da Silva - Laclinic Dental.webp",
+      "group": "portrait",
+      "slug": "ana-rita-marques-da-silva",
+      "url": "https://cdn.prod.website-files.com/660ea309238277de52c19b4d/6992e2c9b1d88b0e129045fe_Ana-Rita%20Marques%20Da%20Silva%20-%20Laclinic%20Dental.webp",
+      "bytes": 76260,
+      "cached": true
+    },
+    {
+      "w": 1620,
+      "h": 1620,
+      "kind": "webp/extended",
+      "filename": "Sina Esfandiari - Laclinic Dental.webp",
+      "group": "portrait",
+      "slug": "sina-esfandiari",
+      "url": "https://cdn.prod.website-files.com/660ea309238277de52c19b4d/6992e2c96a746a5afc8e278a_Sina%20Esfandiari%20-%20Laclinic%20Dental.webp",
+      "bytes": 68266,
+      "cached": true
+    },
+    {
+      "w": 2709,
+      "h": 1794,
+      "kind": "png",
+      "filename": "laclinic black.png",
+      "group": "brand",
+      "url": "https://cdn.prod.website-files.com/660ea309238277de52c19b4d/660ea36cd1d9cf3b6f6c44a6_laclinic%20black.png",
+      "bytes": 36215,
+      "cached": true
+    },
+    {
+      "w": 1933,
+      "h": 1280,
+      "kind": "png",
+      "filename": "laclinic white.png",
+      "group": "brand",
+      "url": "https://cdn.prod.website-files.com/660ea309238277de52c19b4d/660ea39c6c27f1cb68d89789_laclinic%20white.png",
+      "bytes": 21000,
+      "cached": true
+    },
+    {
+      "w": 1200,
+      "h": 630,
+      "kind": "jpeg",
+      "filename": "Laclinic Opengraph.jpg",
+      "group": "brand",
+      "url": "https://cdn.prod.website-files.com/660ea309238277de52c19b4d/661fded564e079c8a0d7a425_Laclinic%20Opengraph.jpg",
+      "bytes": 30149,
+      "cached": true
+    }
+  ]
+}
