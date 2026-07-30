@@ -549,7 +549,7 @@ function treatmentsOverview(lang) {
   const t = makeT(lang);
   let i = 0;
   const head = `<section class="section" style="--rise:100"><div class="wrap">
-<h1 class="display">${esc(nl ? 'Behandelingen' : 'Treatments')}</h1>
+<h1 class="page-title">${esc(nl ? 'Behandelingen' : 'Treatments')}</h1>
 <p class="lead" style="margin-top:1.5rem">${esc(nl
     ? 'Van preventieve zorg tot esthetische en specialistische ingrepen.'
     : 'From preventive care to aesthetic and specialist procedures.')}</p>
@@ -612,7 +612,7 @@ for (const x of treatments.treatments) {
 
     const body = `<section class="section" style="--rise:100"><div class="wrap">
 <p class="eyebrow"><span>${esc(nl ? line.titleNl : line.titleEn)}</span></p>
-<h1 class="display">${esc(nl ? x.titleNl : x.titleEn)}</h1>
+<h1 class="page-title">${esc(nl ? x.titleNl : x.titleEn)}</h1>
 </div></section>
 ${section(i++, `<div class="split">
 <div>
@@ -662,7 +662,7 @@ for (const lang of ['nl', 'en']) {
   const t = makeT(lang);
   let i = 0;
   const body = `<section class="section" style="--rise:100"><div class="wrap">
-<h1 class="display">${esc(nl ? 'Het team' : 'The team')}</h1>
+<h1 class="page-title">${esc(nl ? 'Het team' : 'The team')}</h1>
 <p class="lead" style="margin-top:1.5rem">${esc(nl ? 'Zes mensen aan de Frankrijklei.' : 'Six people on Frankrijklei.')}</p>
 </div></section>
 ${section(i++, `<div class="team">${team.members.map((m) => personCard(lang, m)).join('')}</div>`)}`;
@@ -694,7 +694,7 @@ for (const m of team.members) {
 
     const body = `<section class="section" style="--rise:100"><div class="wrap">
 <p class="eyebrow"><span>${esc(role)}</span></p>
-<h1 class="display">${esc(m.name)}</h1>
+<h1 class="page-title">${esc(m.name)}</h1>
 </div></section>
 ${section(i++, `<div class="split">
 <div><figure><div class="frame frame--square" style="max-width:810px">${picture(m.slug, {
@@ -735,7 +735,7 @@ for (const lang of ['nl', 'en']) {
   const c = pages.chairside;
   let i = 0;
   const body = `<section class="section" style="--rise:100"><div class="wrap">
-<h1 class="display">${esc(nl ? c.titleNl : c.titleEn)}</h1>
+<h1 class="page-title">${esc(nl ? c.titleNl : c.titleEn)}</h1>
 <p class="lead" style="margin-top:1.5rem">${esc(nl ? c.leadNl : c.leadEn)}</p>
 </div></section>
 ${section(i++, `<div class="split">
@@ -775,7 +775,7 @@ ${section(i++, `<div class="split"><div><h2>${esc(nl ? 'Een afspraak maken' : 'B
 function prosePage(lang, { title, lead, paras, frames = [], tone }) {
   let i = 0;
   return `<section class="section" style="--rise:100"><div class="wrap">
-<h1 class="display">${esc(title)}</h1>
+<h1 class="page-title">${esc(title)}</h1>
 ${lead ? `<p class="lead" style="margin-top:1.5rem">${esc(lead)}</p>` : ''}
 </div></section>
 ${section(i++, `<div class="prose stack">${paras.map((x) => `<p>${esc(x)}</p>`).join('')}</div>`, { tone })}
@@ -820,7 +820,7 @@ for (const lang of ['nl', 'en']) {
   const nl = lang === 'nl';
   const t = makeT(lang);
   const body = `<section class="section" style="--rise:100"><div class="wrap">
-<h1 class="display">${esc(t('faqTitle'))}</h1>
+<h1 class="page-title">${esc(t('faqTitle'))}</h1>
 </div></section>
 ${section(0, `<div class="faq">
 ${pages.faq.map((f) => `<details>
@@ -853,7 +853,7 @@ for (const lang of ['nl', 'en']) {
   const pr = site.practical;
   let i = 0;
   const body = `<section class="section" style="--rise:100"><div class="wrap">
-<h1 class="display">${esc(t('practical'))}</h1>
+<h1 class="page-title">${esc(t('practical'))}</h1>
 <p class="lead" style="margin-top:1.5rem">${esc(nl ? 'Adres, openingsuren, parkeren en betalen.' : 'Address, opening hours, parking and payment.')}</p>
 </div></section>
 ${section(i++, `<div class="split">
@@ -900,7 +900,7 @@ for (const lang of ['nl', 'en']) {
   const t = makeT(lang);
   let i = 0;
   const body = `<section class="section" style="--rise:100"><div class="wrap">
-<h1 class="display">${esc(t('book'))}</h1>
+<h1 class="page-title">${esc(t('book'))}</h1>
 <p class="lead" style="margin-top:1.5rem">${esc(nl ? site.differentiators.noWaitlist.nl : site.differentiators.noWaitlist.en)}</p>
 </div></section>
 ${section(i++, `<div class="split">
@@ -958,7 +958,7 @@ for (const lang of ['nl', 'en']) {
   const nl = lang === 'nl';
   const t = makeT(lang);
   const body = `<section class="section" style="--rise:100"><div class="wrap">
-<h1 class="display">${esc(t('nav.contact'))}</h1>
+<h1 class="page-title">${esc(t('nav.contact'))}</h1>
 </div></section>
 ${section(0, `<div class="split">
 <div class="stack">
@@ -1125,7 +1125,7 @@ await writeFile(
     title: 'Pagina niet gevonden — LACLINIC DENTAL',
     description: 'Deze pagina bestaat niet of is verplaatst. Ga naar de homepage van LACLINIC DENTAL of maak meteen een afspraak.',
     body: `<section class="section" style="--rise:100"><div class="wrap">
-<h1 class="display">404</h1>
+<h1 class="page-title">404</h1>
 <p class="lead" style="margin-top:1.5rem">Deze pagina bestaat niet (meer).</p>
 <div class="cta-row" style="margin-top:2rem"><a class="cta" href="${url()}">Naar de homepage</a>${bookingCta('nl', { variant: 'ghost' })}</div>
 </div></section>`,
