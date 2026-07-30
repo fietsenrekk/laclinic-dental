@@ -163,13 +163,37 @@ for (const f of htmlFiles) {
 
 /* ---- 3 · internal link integrity ---- */
 
-const assetPaths = new Set(files.map((f) => '/' + rel(f)));
+// Links are emitted with BASE_PATH baked in; dist/ paths are relative to it.
+const BASE = (process.env.BASE_PATH ?? '').replace(/\/$/, '');
+const assetPaths = new Set(files.map((f) => rel(f)));
 for (const [href, from] of internalLinks) {
-  const asDir = href.endsWith('/') ? href + 'index.html' : href;
-  if (assetPaths.has(asDir.slice(0)) || assetPaths.has(asDir.replace(/^\//, '/'))) continue;
-  const normalised = asDir.replace(/^\//, '');
-  if (files.some((f) => rel(f) === normalised)) continue;
+  let p = href;
+  if (BASE && p.startsWith(BASE + '/')) p = p.slice(BASE.length);
+  else if (BASE && p === BASE) p = '/';
+  const target = (p.endsWith('/') ? p + 'index.html' : p).replace(/^\//, '');
+  if (assetPaths.has(target)) continue;
   note(from, `dead internal link → ${href}`);
+}
+
+/* ---- 3b · asset references inside CSS ---- */
+
+/*
+ * Every url() in the stylesheet must resolve. These are invisible to the HTML
+ * link check and they 404 silently in the console — which is exactly how the
+ * @font-face sources shipped pointing at /fonts/… on a site served under a
+ * base path.
+ */
+for (const cssFile of files.filter((f) => f.endsWith('.css'))) {
+  const text = await readFile(cssFile, 'utf8');
+  if (text.includes('__BASE__')) note(rel(cssFile), 'unsubstituted __BASE__ token in CSS');
+  for (const m of text.matchAll(/url\(\s*["']?([^"')]+)["']?\s*\)/g)) {
+    const href = m[1].trim();
+    if (/^(data:|https?:|\/\/)/.test(href)) continue;
+    let p = href;
+    if (BASE && p.startsWith(BASE + '/')) p = p.slice(BASE.length);
+    const target = p.replace(/^\//, '');
+    if (!assetPaths.has(target)) note(rel(cssFile), `CSS url() does not resolve → ${href}`);
+  }
 }
 
 /* ---- 4 · i18n parity ---- */

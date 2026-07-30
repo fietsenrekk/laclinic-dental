@@ -1064,8 +1064,9 @@ for (const page of routes) {
   await writeFile(path.join(dir, 'index.html'), layout(page));
 }
 
-// Static assets.
-await cp(path.join(ROOT, 'src/styles.css'), path.join(DIST, 'styles.css'));
+// Static assets. The stylesheet carries absolute asset URLs (fonts, the grain
+// tile) written as __BASE__/… so they resolve on a project site as well as at
+// a domain root — a plain /fonts/… would 404 under a base path.
 await cp(path.join(ROOT, 'src/motion.js'), path.join(DIST, 'motion.js'));
 await cp(path.join(ROOT, 'assets/fonts'), path.join(DIST, 'fonts'), { recursive: true });
 await cp(path.join(ROOT, 'assets/brand'), path.join(DIST, 'brand'), { recursive: true });
@@ -1094,13 +1095,10 @@ const tile = (() => {
   return `<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128"><g fill="#808080">${rects}</g></svg>`;
 })();
 await writeFile(path.join(DIST, 'grain.svg'), tile);
-await writeFile(
-  path.join(DIST, 'styles.css'),
-  (await readFile(path.join(ROOT, 'src/styles.css'), 'utf8')).replace(
-    'var(--grain-src)',
-    `url("${asset('grain.svg')}")`,
-  ),
-);
+
+const cssOut = (await readFile(path.join(ROOT, 'src/styles.css'), 'utf8')).replaceAll('__BASE__', BASE);
+if (cssOut.includes('__BASE__')) fail('unsubstituted __BASE__ left in styles.css');
+await writeFile(path.join(DIST, 'styles.css'), cssOut);
 
 // robots + sitemap
 await writeFile(
