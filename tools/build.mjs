@@ -221,12 +221,18 @@ ${hours}
 </footer>`;
 }
 
+/**
+ * Mobile action bar. It is a navigation landmark, not a decorative div — as a
+ * bare <div> it sat outside every landmark on the page, which axe flags and
+ * which leaves it unreachable by landmark navigation in a screen reader.
+ */
 function actionBar(lang) {
   const t = makeT(lang);
-  return `<div class="actionbar">
+  const label = lang === 'nl' ? 'Snelle acties' : 'Quick actions';
+  return `<nav class="actionbar" aria-label="${attr(label)}">
 <a href="${url(lang === 'nl' ? site.booking.canonicalPath : 'en/' + site.booking.canonicalPath)}">${esc(t('book'))}</a>
 <a href="${site.phoneHref}">${esc(t('call'))}</a>
-</div>`;
+</nav>`;
 }
 
 /* ---------------------------------------------------------- structured data */

@@ -15,3 +15,6 @@ Thumbs.db
 .vercel
 .netlify
 .shots/
+
+# axe-core is fetched on demand by tools/axe.mjs
+.shots/
