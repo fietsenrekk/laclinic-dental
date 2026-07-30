@@ -1,0 +1,309 @@
+{
+  "_source": "The four service lines and their treatment lists are verbatim from /diensten (2026-07-30). The per-treatment pages are new — the live site has all four lines on one page and no indexable per-treatment route (F-007).",
+
+  "_copyPolicy": "Belgian rules on advertising dental and aesthetic-dental care apply, and aesthetic treatments sit under tighter restrictions than general care (§17). Copy is therefore factual and procedural: what the treatment is, what happens, what to expect. No superlatives, no promised outcomes, no durability claims, no before/after imagery, no prices. Every page is written for someone who is nervous, because a meaningful share of the audience is. Clinical accuracy must be confirmed by the practice before launch — see CLIENT_ACTIONS.md.",
+
+  "lines": [
+    {
+      "slug": "preventieve-zorg",
+      "slugEn": "preventive-care",
+      "titleNl": "Preventieve zorg",
+      "titleEn": "Preventive care",
+      "leadNl": "Een gezonde mond begint bij een goede basis.",
+      "leadEn": "A healthy mouth starts with a good foundation.",
+      "introNl": "Preventieve zorg helpt problemen te voorkomen en zorgt ervoor dat je gebit in optimale conditie blijft.",
+      "introEn": "Preventive care heads off problems and keeps your teeth in good condition.",
+      "frame": "LACLINIC DENTAL -06.webp",
+      "treatments": ["periodieke-controle", "gebitsreiniging", "persoonlijk-advies"]
+    },
+    {
+      "slug": "esthetische-tandheelkunde",
+      "slugEn": "aesthetic-dentistry",
+      "titleNl": "Esthetische tandheelkunde",
+      "titleEn": "Aesthetic dentistry",
+      "leadNl": "Soms draait tandzorg niet alleen om gezondheid, maar ook om esthetiek.",
+      "leadEn": "Sometimes dental care is not only about health, but about how teeth look.",
+      "introNl": "Wij werken met de technieken en materialen die op dit moment beschikbaar zijn, en bespreken vooraf wat in jouw situatie realistisch is.",
+      "introEn": "We work with the techniques and materials currently available, and discuss beforehand what is realistic in your situation.",
+      "frame": "LACLINIC DENTAL -25.webp",
+      "treatments": ["facings", "tanden-bleken", "aligners"]
+    },
+    {
+      "slug": "implantologie",
+      "slugEn": "implantology",
+      "titleNl": "Implantologie & specialistische zorg",
+      "titleEn": "Implantology & specialist care",
+      "leadNl": "Duurzame oplossingen voor een gezond en sterk gebit.",
+      "leadEn": "Lasting solutions for healthy, strong teeth.",
+      "introNl": "Wanneer een tand verloren is gegaan, kan een implantaat een oplossing zijn. Of dat in jouw geval kan, hangt af van het bot en het tandvlees — dat wordt eerst onderzocht.",
+      "introEn": "When a tooth has been lost, an implant can be a solution. Whether that is possible in your case depends on the bone and the gums — that is examined first.",
+      "frame": "LACLINIC DENTAL -31.webp",
+      "treatments": ["tandimplantaten", "wortelkanaalbehandeling", "tandextracties"]
+    },
+    {
+      "slug": "restauratieve-tandheelkunde",
+      "slugEn": "restorative-dentistry",
+      "titleNl": "Restauratieve tandheelkunde",
+      "titleEn": "Restorative dentistry",
+      "leadNl": "Herstel en behoud van je gebit.",
+      "leadEn": "Repairing and keeping your own teeth.",
+      "introNl": "Bij restauratieve behandelingen kijken we naar oplossingen om beschadigde tanden te versterken en zoveel mogelijk eigen tand te behouden.",
+      "introEn": "In restorative treatment we look for ways to strengthen damaged teeth and keep as much of your own tooth as possible.",
+      "frame": "LACLINIC DENTAL -38.webp",
+      "treatments": ["vullingen-en-inlays", "kronen-en-bruggen", "gebitsreconstructies"]
+    }
+  ],
+
+  "treatments": [
+    {
+      "slug": "periodieke-controle",
+      "slugEn": "check-up",
+      "line": "preventieve-zorg",
+      "titleNl": "Periodieke controle",
+      "titleEn": "Routine check-up",
+      "metaNl": "Periodieke tandartscontrole in Antwerpen — wat er gebeurt en hoe lang het duurt.",
+      "metaEn": "Routine dental check-up in Antwerp — what happens and how long it takes.",
+      "bodyNl": [
+        "Bij een controle kijken we je tanden, tandvlees en de rest van je mond na. Meestal duurt dat een kort consult. Waar het nodig is maken we een RX-foto, want beginnende problemen tussen de tanden of onder een vulling zie je met het blote oog niet.",
+        "Als er iets gevonden wordt, bespreken we het meteen: wat het is, of het nu behandeld moet worden of kan wachten, en wat de behandeling inhoudt. Je beslist zelf wat er gebeurt."
+      ],
+      "bodyEn": [
+        "At a check-up we examine your teeth, your gums and the rest of your mouth. It is usually a short appointment. Where needed we take an X-ray, because early problems between teeth or under a filling are not visible to the eye.",
+        "If something is found we discuss it there and then: what it is, whether it needs treating now or can wait, and what the treatment involves. You decide what happens."
+      ],
+      "frame": "LACLINIC DENTAL -06.webp"
+    },
+    {
+      "slug": "gebitsreiniging",
+      "slugEn": "dental-cleaning",
+      "line": "preventieve-zorg",
+      "titleNl": "Professionele gebitsreiniging",
+      "titleEn": "Professional cleaning",
+      "metaNl": "Professionele gebitsreiniging in Antwerpen bij de mondhygiënist.",
+      "metaEn": "Professional dental cleaning in Antwerp with the dental hygienist.",
+      "bodyNl": [
+        "Tandsteen kun je er thuis niet af poetsen. Bij een professionele reiniging wordt aanslag en tandsteen verwijderd, boven en onder de tandvleesrand, en worden de tanden daarna gepolijst.",
+        "Deze behandeling gebeurt bij de mondhygiënist. Naast het reinigen zelf krijg je te zien waar het bij jou misgaat bij het poetsen — dat is meestal de helft van het resultaat."
+      ],
+      "bodyEn": [
+        "Tartar cannot be brushed off at home. During a professional cleaning, plaque and tartar are removed above and below the gum line, and the teeth are then polished.",
+        "This is done by the dental hygienist. Beyond the cleaning itself, you get shown where your own brushing is falling short — which is usually half the result."
+      ],
+      "frame": "LACLINIC DENTAL -09.webp"
+    },
+    {
+      "slug": "persoonlijk-advies",
+      "slugEn": "personal-advice",
+      "line": "preventieve-zorg",
+      "titleNl": "Persoonlijk advies",
+      "titleEn": "Personal advice",
+      "metaNl": "Mondzorgadvies op maat bij LACLINIC DENTAL in Antwerpen.",
+      "metaEn": "Tailored oral care advice at LACLINIC DENTAL in Antwerp.",
+      "bodyNl": [
+        "Niet iedereen heeft dezelfde mond. Wie beugels heeft gehad, wie implantaten draagt, wie rookt, wie medicatie neemt die de mond droog maakt — dat vraagt telkens iets anders.",
+        "Advies hier betekent concreet: welke borstel, welke techniek, wat er tussen de tanden moet gebeuren, en hoe vaak je terug moet komen. Geen algemene folder."
+      ],
+      "bodyEn": [
+        "Not every mouth is the same. Someone who has had braces, someone with implants, someone who smokes, someone on medication that dries the mouth — each needs something different.",
+        "Advice here means specifics: which brush, which technique, what needs to happen between the teeth, and how often you should come back. Not a general leaflet."
+      ],
+      "frame": "LACLINIC DENTAL -10.webp"
+    },
+
+    {
+      "slug": "facings",
+      "slugEn": "veneers",
+      "line": "esthetische-tandheelkunde",
+      "titleNl": "Facings",
+      "titleEn": "Veneers",
+      "metaNl": "Facings in Antwerpen — in de praktijk vervaardigd, vaak binnen één afspraak.",
+      "metaEn": "Veneers in Antwerp — made in the practice, often within a single appointment.",
+      "aesthetic": true,
+      "bodyNl": [
+        "Een facing is een dun schildje dat op de voorzijde van een tand wordt geplaatst. Het wordt gebruikt bij verkleuring, kleine beschadigingen of vorm- en standverschillen die je met bleken alleen niet oplost.",
+        "Bij LACLINIC worden facings in de praktijk zelf vervaardigd. Dat betekent in de praktijk: scannen, ontwerpen, frezen en plaatsen kan vaak binnen één afspraak, zonder tijdelijke voorziening tussendoor.",
+        "Of een facing voor jou geschikt is, hangt af van de staat van de tand eronder. Dat wordt eerst bekeken en met je besproken."
+      ],
+      "bodyEn": [
+        "A veneer is a thin shell placed over the front of a tooth. It is used for discolouration, small damage, or differences in shape and position that whitening alone does not address.",
+        "At LACLINIC, veneers are made in the practice itself. In practice that means scanning, designing, milling and fitting can often happen within a single appointment, with no temporary in between.",
+        "Whether a veneer is suitable for you depends on the condition of the tooth underneath. That is examined and discussed with you first."
+      ],
+      "frame": "LACLINIC DENTAL -25.webp",
+      "relatedNl": "een-afspraak-in-plaats-van-drie"
+    },
+    {
+      "slug": "tanden-bleken",
+      "slugEn": "teeth-whitening",
+      "line": "esthetische-tandheelkunde",
+      "titleNl": "Tanden bleken",
+      "titleEn": "Teeth whitening",
+      "metaNl": "Tanden bleken in Antwerpen — in de praktijk of met een thuisset.",
+      "metaEn": "Teeth whitening in Antwerp — in the practice or with a home kit.",
+      "aesthetic": true,
+      "bodyNl": [
+        "Bleken kan bij ons op twee manieren: in de praktijk, of met een set voor thuis waarbij de bleekbeugeltjes hier op maat worden gemaakt.",
+        "Wat bleken doet, is bestaande verkleuring van de tand lichter maken. Het verandert de kleur van vullingen, kronen of facings niet — die blijven zoals ze zijn. Als je die in je zichtbare zone hebt, bespreken we dat vooraf, want het bepaalt het eindbeeld.",
+        "Vooraf wordt gekeken of je tandvlees en tanden geschikt zijn. Bleken op een onbehandelde ontsteking of een gaatje is geen goed idee."
+      ],
+      "bodyEn": [
+        "We whiten in two ways: in the practice, or with a home kit for which the trays are made to measure here.",
+        "What whitening does is lighten existing discolouration of the tooth itself. It does not change the colour of fillings, crowns or veneers — those stay as they are. If you have any in your visible zone we discuss that beforehand, because it determines the end result.",
+        "We first check whether your gums and teeth are suitable. Whitening over untreated inflammation or a cavity is not a good idea."
+      ],
+      "frame": "LACLINIC DENTAL -23.webp"
+    },
+    {
+      "slug": "aligners",
+      "slugEn": "aligners",
+      "line": "esthetische-tandheelkunde",
+      "titleNl": "Aligner orthodontie",
+      "titleEn": "Aligner orthodontics",
+      "metaNl": "Aligners in Antwerpen — doorzichtige beugels voor volwassenen.",
+      "metaEn": "Aligners in Antwerp — clear orthodontic trays for adults.",
+      "aesthetic": true,
+      "bodyNl": [
+        "Aligners zijn doorzichtige beugeltjes die je zelf in- en uitdoet. Ze verplaatsen tanden stap voor stap; elk setje staat voor een kleine verandering.",
+        "Ze werken alleen als je ze draagt — in de praktijk komt dat neer op het grootste deel van de dag en de nacht. Dat is de belangrijkste voorwaarde, en de reden dat aligners niet voor iedereen de juiste keuze zijn.",
+        "Of jouw situatie met aligners te behandelen is, hangt af van hoe de tanden staan. Sommige correcties vragen een vaste beugel. Dat bespreken we eerlijk voor er iets besteld wordt."
+      ],
+      "bodyEn": [
+        "Aligners are clear trays you put in and take out yourself. They move teeth step by step; each set represents a small change.",
+        "They only work if you wear them — in practice that means most of the day and night. That is the main condition, and the reason aligners are not the right choice for everyone.",
+        "Whether your situation can be treated with aligners depends on how the teeth sit. Some corrections need fixed braces. We discuss that honestly before anything is ordered."
+      ],
+      "frame": "LACLINIC DENTAL -29.webp"
+    },
+
+    {
+      "slug": "tandimplantaten",
+      "slugEn": "dental-implants",
+      "line": "implantologie",
+      "titleNl": "Tandimplantaten",
+      "titleEn": "Dental implants",
+      "metaNl": "Tandimplantaten in Antwerpen — door een tandarts met specialisatie implantologie.",
+      "metaEn": "Dental implants in Antwerp — by a dentist specialised in implantology.",
+      "bodyNl": [
+        "Een implantaat is een kunstwortel die in het kaakbot wordt geplaatst en waarop later een kroon, brug of prothese komt. Het vervangt de wortel van een tand die er niet meer is.",
+        "Er zit tijd tussen de stappen: het bot moet aan het implantaat vastgroeien voor er belasting op mag. Hoeveel tijd verschilt per persoon en per plaats in de mond.",
+        "Niet elke situatie leent zich ervoor. Er moet genoeg bot zijn en het tandvlees moet gezond zijn. Dat wordt eerst onderzocht, met een foto, en het resultaat van dat onderzoek bepaalt of we doorgaan.",
+        "Bij LACLINIC gebeurt dit door Dr. Ludovic Altermatt, die zich op implantologie heeft toegelegd."
+      ],
+      "bodyEn": [
+        "An implant is an artificial root placed in the jawbone, onto which a crown, bridge or denture is later fitted. It replaces the root of a tooth that is no longer there.",
+        "There is time between the steps: the bone has to bond to the implant before it can take load. How much time varies by person and by position in the mouth.",
+        "Not every situation is suitable. There has to be enough bone and the gums have to be healthy. That is examined first, with an X-ray, and the outcome of that examination determines whether we proceed.",
+        "At LACLINIC this is done by Dr. Ludovic Altermatt, who has specialised in implantology."
+      ],
+      "frame": "LACLINIC DENTAL -31.webp",
+      "person": "ludovic-altermatt"
+    },
+    {
+      "slug": "wortelkanaalbehandeling",
+      "slugEn": "root-canal-treatment",
+      "line": "implantologie",
+      "titleNl": "Wortelkanaalbehandeling",
+      "titleEn": "Root canal treatment",
+      "metaNl": "Wortelkanaalbehandeling in Antwerpen — door een endodontoloog.",
+      "metaEn": "Root canal treatment in Antwerp — by an endodontist.",
+      "anxious": true,
+      "bodyNl": [
+        "Dit is de behandeling waar mensen het meest tegenop zien, dus eerst het belangrijkste: het gebeurt onder verdoving, en het doel is juist om pijn weg te nemen.",
+        "Wanneer de zenuw in een tand ontstoken of afgestorven is, wordt het kanaal in de wortel gereinigd, gedesinfecteerd en opgevuld. De tand zelf blijft staan — dat is het hele punt van de behandeling.",
+        "Bij LACLINIC wordt dit gedaan door Ana-Rita Marques Da Silva, endodontoloog. Wortelkanaalbehandelingen zijn haar vakgebied.",
+        "Als je hier tegenop ziet: zeg dat bij het maken van de afspraak. Het is een normale reactie en het verandert hoe we de afspraak inplannen."
+      ],
+      "bodyEn": [
+        "This is the treatment people dread most, so the important part first: it is done under anaesthetic, and the purpose is precisely to take pain away.",
+        "When the nerve inside a tooth is inflamed or has died, the canal in the root is cleaned, disinfected and filled. The tooth itself stays — that is the entire point of the treatment.",
+        "At LACLINIC this is done by Ana-Rita Marques Da Silva, endodontist. Root canal treatment is her field.",
+        "If you are dreading it: say so when you book. It is a normal reaction and it changes how we schedule the appointment."
+      ],
+      "frame": "LACLINIC DENTAL -53.webp",
+      "person": "ana-rita-marques-da-silva"
+    },
+    {
+      "slug": "tandextracties",
+      "slugEn": "tooth-extraction",
+      "line": "implantologie",
+      "titleNl": "Tandextracties",
+      "titleEn": "Tooth extraction",
+      "metaNl": "Tand trekken in Antwerpen, inclusief verstandskiezen.",
+      "metaEn": "Tooth extraction in Antwerp, including wisdom teeth.",
+      "anxious": true,
+      "bodyNl": [
+        "Een tand trekken is de laatste optie, niet de eerste. Als er een manier is om de tand te houden, bespreken we die eerst.",
+        "Soms is er geen goede manier meer: bij een tand die te ver is aangetast, of bij verstandskiezen die klem staan of steeds terugkerende ontstekingen geven.",
+        "De ingreep gebeurt onder verdoving. Vooraf krijg je te horen wat je erna kunt verwachten en waar je op moet letten, en je krijgt dat ook mee op papier."
+      ],
+      "bodyEn": [
+        "Removing a tooth is the last option, not the first. If there is a way to keep the tooth, we discuss that first.",
+        "Sometimes there is no good way left: a tooth too far gone, or wisdom teeth that are impacted or cause recurring inflammation.",
+        "The procedure is done under anaesthetic. Beforehand you are told what to expect afterwards and what to watch for, and you get that on paper as well."
+      ],
+      "frame": "LACLINIC DENTAL -59.webp"
+    },
+
+    {
+      "slug": "vullingen-en-inlays",
+      "slugEn": "fillings-and-inlays",
+      "line": "restauratieve-tandheelkunde",
+      "titleNl": "Vullingen & inlays",
+      "titleEn": "Fillings & inlays",
+      "metaNl": "Vullingen en inlays in Antwerpen bij LACLINIC DENTAL.",
+      "metaEn": "Fillings and inlays in Antwerp at LACLINIC DENTAL.",
+      "bodyNl": [
+        "Bij een gaatje wordt het aangetaste deel weggenomen en de tand weer opgebouwd. Voor kleinere herstellingen gebeurt dat met een vulling.",
+        "Is er meer weg, dan is een inlay vaak steviger: een op maat gemaakt stuk dat precies in de tand past en daarna wordt vastgezet. Die kunnen hier in de praktijk gefreesd worden.",
+        "Welke van de twee het wordt, hangt af van hoeveel tand er nog over is."
+      ],
+      "bodyEn": [
+        "With a cavity, the affected part is removed and the tooth built back up. For smaller repairs that is done with a filling.",
+        "Where more is gone, an inlay is often stronger: a piece made to measure that fits precisely into the tooth and is then bonded in. Those can be milled here in the practice.",
+        "Which of the two it becomes depends on how much tooth is left."
+      ],
+      "frame": "LACLINIC DENTAL -38.webp"
+    },
+    {
+      "slug": "kronen-en-bruggen",
+      "slugEn": "crowns-and-bridges",
+      "line": "restauratieve-tandheelkunde",
+      "titleNl": "Kronen & bruggen",
+      "titleEn": "Crowns & bridges",
+      "metaNl": "Kronen en bruggen in Antwerpen — vaak binnen één afspraak klaar.",
+      "metaEn": "Crowns and bridges in Antwerp — often finished within a single appointment.",
+      "bodyNl": [
+        "Een kroon is een kap die over een tand gaat die te veel beschadigd is om met een vulling te herstellen. Een brug overbrugt een plek waar een tand ontbreekt, met steun op de tanden ernaast.",
+        "Kronen worden bij LACLINIC in de praktijk gefreesd. Dat scheelt in de regel een tweede afspraak en een tijdelijke kroon in de tussentijd.",
+        "De kleur wordt afgestemd op de tanden ernaast."
+      ],
+      "bodyEn": [
+        "A crown is a cap that goes over a tooth too damaged to repair with a filling. A bridge spans a gap where a tooth is missing, supported by the teeth either side.",
+        "Crowns at LACLINIC are milled in the practice. That generally saves a second appointment and a temporary crown in between.",
+        "The colour is matched to the teeth beside it."
+      ],
+      "frame": "LACLINIC DENTAL -26.webp",
+      "relatedNl": "een-afspraak-in-plaats-van-drie"
+    },
+    {
+      "slug": "gebitsreconstructies",
+      "slugEn": "full-mouth-reconstruction",
+      "line": "restauratieve-tandheelkunde",
+      "titleNl": "Gebitsreconstructies",
+      "titleEn": "Full reconstructions",
+      "metaNl": "Volledige gebitsreconstructie in Antwerpen — stap voor stap gepland.",
+      "metaEn": "Full mouth reconstruction in Antwerp — planned step by step.",
+      "bodyNl": [
+        "Soms gaat het niet om één tand. Bij slijtage over vele jaren, of wanneer er veel tegelijk hersteld moet worden, wordt er een plan gemaakt voor het geheel in plaats van per tand.",
+        "Dat begint met onderzoek en een gesprek over wat je wil bereiken en wat haalbaar is. Daarna volgt een plan in stappen, met een volgorde en een tijdlijn, zodat je vooraf weet waar je aan begint.",
+        "Dit soort trajecten loopt over meerdere afspraken. Wat er per afspraak gebeurt, spreken we vooraf door."
+      ],
+      "bodyEn": [
+        "Sometimes it is not about one tooth. With wear built up over many years, or when a lot needs repairing at once, a plan is made for the whole rather than tooth by tooth.",
+        "That starts with an examination and a conversation about what you want to achieve and what is achievable. A staged plan follows, with an order and a timeline, so you know in advance what you are starting.",
+        "This kind of course runs over several appointments. What happens at each one is talked through beforehand."
+      ],
+      "frame": "LACLINIC DENTAL -62.webp"
+    }
+  ]
+}

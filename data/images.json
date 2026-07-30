@@ -1,0 +1,1399 @@
+{
+  "generated": "2026-07-30T15:59:44.987Z",
+  "grade": {
+    "blackPoint": 0.027,
+    "whitePoint": 0.965,
+    "gamma": 1.02,
+    "contrast": 1.04,
+    "saturation": 1,
+    "temperature": -0.012,
+    "sharpenAmount": 0.6
+  },
+  "grain": {
+    "strength": 3.2,
+    "minStrength": 1.8
+  },
+  "ladder": [
+    480,
+    768,
+    1200,
+    1600,
+    2048,
+    2560,
+    3840
+  ],
+  "images": [
+    {
+      "slug": "frame-06",
+      "source": "LACLINIC DENTAL -06.webp",
+      "group": "shoot",
+      "intrinsic": {
+        "w": 2000,
+        "h": 1348,
+        "ratio": 1.4837
+      },
+      "maxWidth": 2000,
+      "provenance": "webflow-derivative",
+      "variants": [
+        {
+          "width": 480,
+          "format": "avif",
+          "file": "frame-06-480.avif",
+          "bytes": 11526
+        },
+        {
+          "width": 480,
+          "format": "webp",
+          "file": "frame-06-480.webp",
+          "bytes": 14330
+        },
+        {
+          "width": 768,
+          "format": "avif",
+          "file": "frame-06-768.avif",
+          "bytes": 22733
+        },
+        {
+          "width": 768,
+          "format": "webp",
+          "file": "frame-06-768.webp",
+          "bytes": 33032
+        },
+        {
+          "width": 1200,
+          "format": "avif",
+          "file": "frame-06-1200.avif",
+          "bytes": 40152
+        },
+        {
+          "width": 1200,
+          "format": "webp",
+          "file": "frame-06-1200.webp",
+          "bytes": 84968
+        },
+        {
+          "width": 1600,
+          "format": "avif",
+          "file": "frame-06-1600.avif",
+          "bytes": 80858
+        },
+        {
+          "width": 1600,
+          "format": "webp",
+          "file": "frame-06-1600.webp",
+          "bytes": 180670
+        }
+      ]
+    },
+    {
+      "slug": "frame-08",
+      "source": "LACLINIC DENTAL -08.webp",
+      "group": "shoot",
+      "intrinsic": {
+        "w": 2000,
+        "h": 1444,
+        "ratio": 1.385
+      },
+      "maxWidth": 2000,
+      "provenance": "webflow-derivative",
+      "variants": [
+        {
+          "width": 480,
+          "format": "avif",
+          "file": "frame-08-480.avif",
+          "bytes": 5560
+        },
+        {
+          "width": 480,
+          "format": "webp",
+          "file": "frame-08-480.webp",
+          "bytes": 8164
+        },
+        {
+          "width": 768,
+          "format": "avif",
+          "file": "frame-08-768.avif",
+          "bytes": 9728
+        },
+        {
+          "width": 768,
+          "format": "webp",
+          "file": "frame-08-768.webp",
+          "bytes": 17376
+        },
+        {
+          "width": 1200,
+          "format": "avif",
+          "file": "frame-08-1200.avif",
+          "bytes": 13009
+        },
+        {
+          "width": 1200,
+          "format": "webp",
+          "file": "frame-08-1200.webp",
+          "bytes": 66654
+        },
+        {
+          "width": 1600,
+          "format": "avif",
+          "file": "frame-08-1600.avif",
+          "bytes": 65632
+        },
+        {
+          "width": 1600,
+          "format": "webp",
+          "file": "frame-08-1600.webp",
+          "bytes": 187552
+        }
+      ]
+    },
+    {
+      "slug": "frame-09",
+      "source": "LACLINIC DENTAL -09.webp",
+      "group": "shoot",
+      "intrinsic": {
+        "w": 2000,
+        "h": 1444,
+        "ratio": 1.385
+      },
+      "maxWidth": 2000,
+      "provenance": "webflow-derivative",
+      "variants": [
+        {
+          "width": 480,
+          "format": "avif",
+          "file": "frame-09-480.avif",
+          "bytes": 7606
+        },
+        {
+          "width": 480,
+          "format": "webp",
+          "file": "frame-09-480.webp",
+          "bytes": 9920
+        },
+        {
+          "width": 768,
+          "format": "avif",
+          "file": "frame-09-768.avif",
+          "bytes": 13170
+        },
+        {
+          "width": 768,
+          "format": "webp",
+          "file": "frame-09-768.webp",
+          "bytes": 21264
+        },
+        {
+          "width": 1200,
+          "format": "avif",
+          "file": "frame-09-1200.avif",
+          "bytes": 19717
+        },
+        {
+          "width": 1200,
+          "format": "webp",
+          "file": "frame-09-1200.webp",
+          "bytes": 89602
+        },
+        {
+          "width": 1600,
+          "format": "avif",
+          "file": "frame-09-1600.avif",
+          "bytes": 114438
+        },
+        {
+          "width": 1600,
+          "format": "webp",
+          "file": "frame-09-1600.webp",
+          "bytes": 245800
+        }
+      ]
+    },
+    {
+      "slug": "frame-10",
+      "source": "LACLINIC DENTAL -10.webp",
+      "group": "shoot",
+      "intrinsic": {
+        "w": 2000,
+        "h": 1569,
+        "ratio": 1.2747
+      },
+      "maxWidth": 2000,
+      "provenance": "webflow-derivative",
+      "variants": [
+        {
+          "width": 480,
+          "format": "avif",
+          "file": "frame-10-480.avif",
+          "bytes": 5332
+        },
+        {
+          "width": 480,
+          "format": "webp",
+          "file": "frame-10-480.webp",
+          "bytes": 6260
+        },
+        {
+          "width": 768,
+          "format": "avif",
+          "file": "frame-10-768.avif",
+          "bytes": 9122
+        },
+        {
+          "width": 768,
+          "format": "webp",
+          "file": "frame-10-768.webp",
+          "bytes": 14808
+        },
+        {
+          "width": 1200,
+          "format": "avif",
+          "file": "frame-10-1200.avif",
+          "bytes": 11077
+        },
+        {
+          "width": 1200,
+          "format": "webp",
+          "file": "frame-10-1200.webp",
+          "bytes": 71490
+        },
+        {
+          "width": 1600,
+          "format": "avif",
+          "file": "frame-10-1600.avif",
+          "bytes": 58643
+        },
+        {
+          "width": 1600,
+          "format": "webp",
+          "file": "frame-10-1600.webp",
+          "bytes": 189114
+        }
+      ]
+    },
+    {
+      "slug": "frame-23",
+      "source": "LACLINIC DENTAL -23.webp",
+      "group": "shoot",
+      "intrinsic": {
+        "w": 2000,
+        "h": 2920,
+        "ratio": 0.6849
+      },
+      "maxWidth": 2000,
+      "provenance": "webflow-derivative",
+      "variants": [
+        {
+          "width": 480,
+          "format": "avif",
+          "file": "frame-23-480.avif",
+          "bytes": 8650
+        },
+        {
+          "width": 480,
+          "format": "webp",
+          "file": "frame-23-480.webp",
+          "bytes": 13006
+        },
+        {
+          "width": 768,
+          "format": "avif",
+          "file": "frame-23-768.avif",
+          "bytes": 14666
+        },
+        {
+          "width": 768,
+          "format": "webp",
+          "file": "frame-23-768.webp",
+          "bytes": 27942
+        },
+        {
+          "width": 1200,
+          "format": "avif",
+          "file": "frame-23-1200.avif",
+          "bytes": 15702
+        },
+        {
+          "width": 1200,
+          "format": "webp",
+          "file": "frame-23-1200.webp",
+          "bytes": 95340
+        },
+        {
+          "width": 1600,
+          "format": "avif",
+          "file": "frame-23-1600.avif",
+          "bytes": 38161
+        },
+        {
+          "width": 1600,
+          "format": "webp",
+          "file": "frame-23-1600.webp",
+          "bytes": 229742
+        }
+      ]
+    },
+    {
+      "slug": "frame-25",
+      "source": "LACLINIC DENTAL -25.webp",
+      "group": "shoot",
+      "intrinsic": {
+        "w": 2220,
+        "h": 1541,
+        "ratio": 1.4406
+      },
+      "maxWidth": 2220,
+      "provenance": "webflow-derivative",
+      "variants": [
+        {
+          "width": 480,
+          "format": "avif",
+          "file": "frame-25-480.avif",
+          "bytes": 5183
+        },
+        {
+          "width": 480,
+          "format": "webp",
+          "file": "frame-25-480.webp",
+          "bytes": 6806
+        },
+        {
+          "width": 768,
+          "format": "avif",
+          "file": "frame-25-768.avif",
+          "bytes": 8847
+        },
+        {
+          "width": 768,
+          "format": "webp",
+          "file": "frame-25-768.webp",
+          "bytes": 15692
+        },
+        {
+          "width": 1200,
+          "format": "avif",
+          "file": "frame-25-1200.avif",
+          "bytes": 9565
+        },
+        {
+          "width": 1200,
+          "format": "webp",
+          "file": "frame-25-1200.webp",
+          "bytes": 55338
+        },
+        {
+          "width": 1600,
+          "format": "avif",
+          "file": "frame-25-1600.avif",
+          "bytes": 33654
+        },
+        {
+          "width": 1600,
+          "format": "webp",
+          "file": "frame-25-1600.webp",
+          "bytes": 155160
+        },
+        {
+          "width": 2048,
+          "format": "avif",
+          "file": "frame-25-2048.avif",
+          "bytes": 146630
+        },
+        {
+          "width": 2048,
+          "format": "webp",
+          "file": "frame-25-2048.webp",
+          "bytes": 331732
+        }
+      ]
+    },
+    {
+      "slug": "frame-26",
+      "source": "LACLINIC DENTAL -26.webp",
+      "group": "shoot",
+      "intrinsic": {
+        "w": 3000,
+        "h": 2000,
+        "ratio": 1.5
+      },
+      "maxWidth": 3000,
+      "provenance": "webflow-derivative",
+      "variants": [
+        {
+          "width": 480,
+          "format": "avif",
+          "file": "frame-26-480.avif",
+          "bytes": 4120
+        },
+        {
+          "width": 480,
+          "format": "webp",
+          "file": "frame-26-480.webp",
+          "bytes": 5058
+        },
+        {
+          "width": 768,
+          "format": "avif",
+          "file": "frame-26-768.avif",
+          "bytes": 6846
+        },
+        {
+          "width": 768,
+          "format": "webp",
+          "file": "frame-26-768.webp",
+          "bytes": 10208
+        },
+        {
+          "width": 1200,
+          "format": "avif",
+          "file": "frame-26-1200.avif",
+          "bytes": 6533
+        },
+        {
+          "width": 1200,
+          "format": "webp",
+          "file": "frame-26-1200.webp",
+          "bytes": 30786
+        },
+        {
+          "width": 1600,
+          "format": "avif",
+          "file": "frame-26-1600.avif",
+          "bytes": 10389
+        },
+        {
+          "width": 1600,
+          "format": "webp",
+          "file": "frame-26-1600.webp",
+          "bytes": 94704
+        },
+        {
+          "width": 2048,
+          "format": "avif",
+          "file": "frame-26-2048.avif",
+          "bytes": 65886
+        },
+        {
+          "width": 2048,
+          "format": "webp",
+          "file": "frame-26-2048.webp",
+          "bytes": 260812
+        },
+        {
+          "width": 2560,
+          "format": "avif",
+          "file": "frame-26-2560.avif",
+          "bytes": 265187
+        },
+        {
+          "width": 2560,
+          "format": "webp",
+          "file": "frame-26-2560.webp",
+          "bytes": 569594
+        }
+      ]
+    },
+    {
+      "slug": "frame-29",
+      "source": "LACLINIC DENTAL -29.webp",
+      "group": "shoot",
+      "intrinsic": {
+        "w": 2000,
+        "h": 3000,
+        "ratio": 0.6667
+      },
+      "maxWidth": 2000,
+      "provenance": "webflow-derivative",
+      "variants": [
+        {
+          "width": 480,
+          "format": "avif",
+          "file": "frame-29-480.avif",
+          "bytes": 13517
+        },
+        {
+          "width": 480,
+          "format": "webp",
+          "file": "frame-29-480.webp",
+          "bytes": 16740
+        },
+        {
+          "width": 768,
+          "format": "avif",
+          "file": "frame-29-768.avif",
+          "bytes": 23263
+        },
+        {
+          "width": 768,
+          "format": "webp",
+          "file": "frame-29-768.webp",
+          "bytes": 35452
+        },
+        {
+          "width": 1200,
+          "format": "avif",
+          "file": "frame-29-1200.avif",
+          "bytes": 33442
+        },
+        {
+          "width": 1200,
+          "format": "webp",
+          "file": "frame-29-1200.webp",
+          "bytes": 120434
+        },
+        {
+          "width": 1600,
+          "format": "avif",
+          "file": "frame-29-1600.avif",
+          "bytes": 115611
+        },
+        {
+          "width": 1600,
+          "format": "webp",
+          "file": "frame-29-1600.webp",
+          "bytes": 308196
+        }
+      ]
+    },
+    {
+      "slug": "frame-31",
+      "source": "LACLINIC DENTAL -31.webp",
+      "group": "shoot",
+      "intrinsic": {
+        "w": 3000,
+        "h": 2000,
+        "ratio": 1.5
+      },
+      "maxWidth": 3000,
+      "provenance": "webflow-derivative",
+      "variants": [
+        {
+          "width": 480,
+          "format": "avif",
+          "file": "frame-31-480.avif",
+          "bytes": 13420
+        },
+        {
+          "width": 480,
+          "format": "webp",
+          "file": "frame-31-480.webp",
+          "bytes": 14822
+        },
+        {
+          "width": 768,
+          "format": "avif",
+          "file": "frame-31-768.avif",
+          "bytes": 28289
+        },
+        {
+          "width": 768,
+          "format": "webp",
+          "file": "frame-31-768.webp",
+          "bytes": 32884
+        },
+        {
+          "width": 1200,
+          "format": "avif",
+          "file": "frame-31-1200.avif",
+          "bytes": 50686
+        },
+        {
+          "width": 1200,
+          "format": "webp",
+          "file": "frame-31-1200.webp",
+          "bytes": 78372
+        },
+        {
+          "width": 1600,
+          "format": "avif",
+          "file": "frame-31-1600.avif",
+          "bytes": 80957
+        },
+        {
+          "width": 1600,
+          "format": "webp",
+          "file": "frame-31-1600.webp",
+          "bytes": 163604
+        },
+        {
+          "width": 2048,
+          "format": "avif",
+          "file": "frame-31-2048.avif",
+          "bytes": 134976
+        },
+        {
+          "width": 2048,
+          "format": "webp",
+          "file": "frame-31-2048.webp",
+          "bytes": 340958
+        },
+        {
+          "width": 2560,
+          "format": "avif",
+          "file": "frame-31-2560.avif",
+          "bytes": 328902
+        },
+        {
+          "width": 2560,
+          "format": "webp",
+          "file": "frame-31-2560.webp",
+          "bytes": 637066
+        }
+      ]
+    },
+    {
+      "slug": "frame-38",
+      "source": "LACLINIC DENTAL -38.webp",
+      "group": "shoot",
+      "intrinsic": {
+        "w": 3000,
+        "h": 2000,
+        "ratio": 1.5
+      },
+      "maxWidth": 3000,
+      "provenance": "webflow-derivative",
+      "variants": [
+        {
+          "width": 480,
+          "format": "avif",
+          "file": "frame-38-480.avif",
+          "bytes": 6348
+        },
+        {
+          "width": 480,
+          "format": "webp",
+          "file": "frame-38-480.webp",
+          "bytes": 8070
+        },
+        {
+          "width": 768,
+          "format": "avif",
+          "file": "frame-38-768.avif",
+          "bytes": 11860
+        },
+        {
+          "width": 768,
+          "format": "webp",
+          "file": "frame-38-768.webp",
+          "bytes": 15342
+        },
+        {
+          "width": 1200,
+          "format": "avif",
+          "file": "frame-38-1200.avif",
+          "bytes": 16682
+        },
+        {
+          "width": 1200,
+          "format": "webp",
+          "file": "frame-38-1200.webp",
+          "bytes": 33412
+        },
+        {
+          "width": 1600,
+          "format": "avif",
+          "file": "frame-38-1600.avif",
+          "bytes": 25233
+        },
+        {
+          "width": 1600,
+          "format": "webp",
+          "file": "frame-38-1600.webp",
+          "bytes": 90776
+        },
+        {
+          "width": 2048,
+          "format": "avif",
+          "file": "frame-38-2048.avif",
+          "bytes": 47370
+        },
+        {
+          "width": 2048,
+          "format": "webp",
+          "file": "frame-38-2048.webp",
+          "bytes": 230236
+        },
+        {
+          "width": 2560,
+          "format": "avif",
+          "file": "frame-38-2560.avif",
+          "bytes": 208369
+        },
+        {
+          "width": 2560,
+          "format": "webp",
+          "file": "frame-38-2560.webp",
+          "bytes": 481760
+        }
+      ]
+    },
+    {
+      "slug": "frame-53",
+      "source": "LACLINIC DENTAL -53.webp",
+      "group": "shoot",
+      "intrinsic": {
+        "w": 3000,
+        "h": 2000,
+        "ratio": 1.5
+      },
+      "maxWidth": 3000,
+      "provenance": "webflow-derivative",
+      "variants": [
+        {
+          "width": 480,
+          "format": "avif",
+          "file": "frame-53-480.avif",
+          "bytes": 6303
+        },
+        {
+          "width": 480,
+          "format": "webp",
+          "file": "frame-53-480.webp",
+          "bytes": 7060
+        },
+        {
+          "width": 768,
+          "format": "avif",
+          "file": "frame-53-768.avif",
+          "bytes": 10503
+        },
+        {
+          "width": 768,
+          "format": "webp",
+          "file": "frame-53-768.webp",
+          "bytes": 13134
+        },
+        {
+          "width": 1200,
+          "format": "avif",
+          "file": "frame-53-1200.avif",
+          "bytes": 11653
+        },
+        {
+          "width": 1200,
+          "format": "webp",
+          "file": "frame-53-1200.webp",
+          "bytes": 25162
+        },
+        {
+          "width": 1600,
+          "format": "avif",
+          "file": "frame-53-1600.avif",
+          "bytes": 16401
+        },
+        {
+          "width": 1600,
+          "format": "webp",
+          "file": "frame-53-1600.webp",
+          "bytes": 60528
+        },
+        {
+          "width": 2048,
+          "format": "avif",
+          "file": "frame-53-2048.avif",
+          "bytes": 25980
+        },
+        {
+          "width": 2048,
+          "format": "webp",
+          "file": "frame-53-2048.webp",
+          "bytes": 161894
+        },
+        {
+          "width": 2560,
+          "format": "avif",
+          "file": "frame-53-2560.avif",
+          "bytes": 117695
+        },
+        {
+          "width": 2560,
+          "format": "webp",
+          "file": "frame-53-2560.webp",
+          "bytes": 378434
+        }
+      ]
+    },
+    {
+      "slug": "frame-59",
+      "source": "LACLINIC DENTAL -59.webp",
+      "group": "shoot",
+      "intrinsic": {
+        "w": 3000,
+        "h": 2000,
+        "ratio": 1.5
+      },
+      "maxWidth": 3000,
+      "provenance": "webflow-derivative",
+      "variants": [
+        {
+          "width": 480,
+          "format": "avif",
+          "file": "frame-59-480.avif",
+          "bytes": 8579
+        },
+        {
+          "width": 480,
+          "format": "webp",
+          "file": "frame-59-480.webp",
+          "bytes": 9098
+        },
+        {
+          "width": 768,
+          "format": "avif",
+          "file": "frame-59-768.avif",
+          "bytes": 15352
+        },
+        {
+          "width": 768,
+          "format": "webp",
+          "file": "frame-59-768.webp",
+          "bytes": 18538
+        },
+        {
+          "width": 1200,
+          "format": "avif",
+          "file": "frame-59-1200.avif",
+          "bytes": 22964
+        },
+        {
+          "width": 1200,
+          "format": "webp",
+          "file": "frame-59-1200.webp",
+          "bytes": 39508
+        },
+        {
+          "width": 1600,
+          "format": "avif",
+          "file": "frame-59-1600.avif",
+          "bytes": 35713
+        },
+        {
+          "width": 1600,
+          "format": "webp",
+          "file": "frame-59-1600.webp",
+          "bytes": 100608
+        },
+        {
+          "width": 2048,
+          "format": "avif",
+          "file": "frame-59-2048.avif",
+          "bytes": 70638
+        },
+        {
+          "width": 2048,
+          "format": "webp",
+          "file": "frame-59-2048.webp",
+          "bytes": 237736
+        },
+        {
+          "width": 2560,
+          "format": "avif",
+          "file": "frame-59-2560.avif",
+          "bytes": 222225
+        },
+        {
+          "width": 2560,
+          "format": "webp",
+          "file": "frame-59-2560.webp",
+          "bytes": 486670
+        }
+      ]
+    },
+    {
+      "slug": "frame-62",
+      "source": "LACLINIC DENTAL -62.webp",
+      "group": "shoot",
+      "intrinsic": {
+        "w": 3000,
+        "h": 2000,
+        "ratio": 1.5
+      },
+      "maxWidth": 3000,
+      "provenance": "webflow-derivative",
+      "variants": [
+        {
+          "width": 480,
+          "format": "avif",
+          "file": "frame-62-480.avif",
+          "bytes": 8259
+        },
+        {
+          "width": 480,
+          "format": "webp",
+          "file": "frame-62-480.webp",
+          "bytes": 9750
+        },
+        {
+          "width": 768,
+          "format": "avif",
+          "file": "frame-62-768.avif",
+          "bytes": 15161
+        },
+        {
+          "width": 768,
+          "format": "webp",
+          "file": "frame-62-768.webp",
+          "bytes": 19298
+        },
+        {
+          "width": 1200,
+          "format": "avif",
+          "file": "frame-62-1200.avif",
+          "bytes": 22226
+        },
+        {
+          "width": 1200,
+          "format": "webp",
+          "file": "frame-62-1200.webp",
+          "bytes": 39222
+        },
+        {
+          "width": 1600,
+          "format": "avif",
+          "file": "frame-62-1600.avif",
+          "bytes": 33715
+        },
+        {
+          "width": 1600,
+          "format": "webp",
+          "file": "frame-62-1600.webp",
+          "bytes": 86296
+        },
+        {
+          "width": 2048,
+          "format": "avif",
+          "file": "frame-62-2048.avif",
+          "bytes": 53233
+        },
+        {
+          "width": 2048,
+          "format": "webp",
+          "file": "frame-62-2048.webp",
+          "bytes": 195738
+        },
+        {
+          "width": 2560,
+          "format": "avif",
+          "file": "frame-62-2560.avif",
+          "bytes": 142401
+        },
+        {
+          "width": 2560,
+          "format": "webp",
+          "file": "frame-62-2560.webp",
+          "bytes": 393426
+        }
+      ]
+    },
+    {
+      "slug": "w-084",
+      "source": "w-084.webp",
+      "group": "shoot",
+      "intrinsic": {
+        "w": 1024,
+        "h": 1024,
+        "ratio": 1
+      },
+      "maxWidth": 1024,
+      "provenance": "webflow-derivative",
+      "variants": [
+        {
+          "width": 480,
+          "format": "avif",
+          "file": "w-084-480.avif",
+          "bytes": 16063
+        },
+        {
+          "width": 480,
+          "format": "webp",
+          "file": "w-084-480.webp",
+          "bytes": 15132
+        },
+        {
+          "width": 768,
+          "format": "avif",
+          "file": "w-084-768.avif",
+          "bytes": 37199
+        },
+        {
+          "width": 768,
+          "format": "webp",
+          "file": "w-084-768.webp",
+          "bytes": 37804
+        }
+      ]
+    },
+    {
+      "slug": "ludovic-altermatt",
+      "source": "Dr. Ludovic Altermatt -Laclinic Dental.webp",
+      "group": "portrait",
+      "intrinsic": {
+        "w": 1620,
+        "h": 1620,
+        "ratio": 1
+      },
+      "maxWidth": 1620,
+      "provenance": "webflow-derivative",
+      "variants": [
+        {
+          "width": 480,
+          "format": "avif",
+          "file": "ludovic-altermatt-480.avif",
+          "bytes": 8274
+        },
+        {
+          "width": 480,
+          "format": "webp",
+          "file": "ludovic-altermatt-480.webp",
+          "bytes": 9488
+        },
+        {
+          "width": 768,
+          "format": "avif",
+          "file": "ludovic-altermatt-768.avif",
+          "bytes": 15282
+        },
+        {
+          "width": 768,
+          "format": "webp",
+          "file": "ludovic-altermatt-768.webp",
+          "bytes": 18812
+        },
+        {
+          "width": 1200,
+          "format": "avif",
+          "file": "ludovic-altermatt-1200.avif",
+          "bytes": 20279
+        },
+        {
+          "width": 1200,
+          "format": "webp",
+          "file": "ludovic-altermatt-1200.webp",
+          "bytes": 33420
+        },
+        {
+          "width": 1600,
+          "format": "avif",
+          "file": "ludovic-altermatt-1600.avif",
+          "bytes": 33537
+        },
+        {
+          "width": 1600,
+          "format": "webp",
+          "file": "ludovic-altermatt-1600.webp",
+          "bytes": 56790
+        }
+      ]
+    },
+    {
+      "slug": "omid-hadadian-moghadam",
+      "source": "Omid Hadadian Moghadam - Laclinic Dental.webp",
+      "group": "portrait",
+      "intrinsic": {
+        "w": 1620,
+        "h": 1620,
+        "ratio": 1
+      },
+      "maxWidth": 1620,
+      "provenance": "webflow-derivative",
+      "variants": [
+        {
+          "width": 480,
+          "format": "avif",
+          "file": "omid-hadadian-moghadam-480.avif",
+          "bytes": 6955
+        },
+        {
+          "width": 480,
+          "format": "webp",
+          "file": "omid-hadadian-moghadam-480.webp",
+          "bytes": 8202
+        },
+        {
+          "width": 768,
+          "format": "avif",
+          "file": "omid-hadadian-moghadam-768.avif",
+          "bytes": 12202
+        },
+        {
+          "width": 768,
+          "format": "webp",
+          "file": "omid-hadadian-moghadam-768.webp",
+          "bytes": 16066
+        },
+        {
+          "width": 1200,
+          "format": "avif",
+          "file": "omid-hadadian-moghadam-1200.avif",
+          "bytes": 14269
+        },
+        {
+          "width": 1200,
+          "format": "webp",
+          "file": "omid-hadadian-moghadam-1200.webp",
+          "bytes": 26754
+        },
+        {
+          "width": 1600,
+          "format": "avif",
+          "file": "omid-hadadian-moghadam-1600.avif",
+          "bytes": 22797
+        },
+        {
+          "width": 1600,
+          "format": "webp",
+          "file": "omid-hadadian-moghadam-1600.webp",
+          "bytes": 45282
+        }
+      ]
+    },
+    {
+      "slug": "katrien-vr",
+      "source": "Katrien - Laclinic Dental.webp",
+      "group": "portrait",
+      "intrinsic": {
+        "w": 1620,
+        "h": 1620,
+        "ratio": 1
+      },
+      "maxWidth": 1620,
+      "provenance": "webflow-derivative",
+      "variants": [
+        {
+          "width": 480,
+          "format": "avif",
+          "file": "katrien-vr-480.avif",
+          "bytes": 7532
+        },
+        {
+          "width": 480,
+          "format": "webp",
+          "file": "katrien-vr-480.webp",
+          "bytes": 8628
+        },
+        {
+          "width": 768,
+          "format": "avif",
+          "file": "katrien-vr-768.avif",
+          "bytes": 12870
+        },
+        {
+          "width": 768,
+          "format": "webp",
+          "file": "katrien-vr-768.webp",
+          "bytes": 16228
+        },
+        {
+          "width": 1200,
+          "format": "avif",
+          "file": "katrien-vr-1200.avif",
+          "bytes": 13572
+        },
+        {
+          "width": 1200,
+          "format": "webp",
+          "file": "katrien-vr-1200.webp",
+          "bytes": 24354
+        },
+        {
+          "width": 1600,
+          "format": "avif",
+          "file": "katrien-vr-1600.avif",
+          "bytes": 18185
+        },
+        {
+          "width": 1600,
+          "format": "webp",
+          "file": "katrien-vr-1600.webp",
+          "bytes": 35894
+        }
+      ]
+    },
+    {
+      "slug": "annemie",
+      "source": "Annemie - Laclinic Dental.webp",
+      "group": "portrait",
+      "intrinsic": {
+        "w": 1620,
+        "h": 1620,
+        "ratio": 1
+      },
+      "maxWidth": 1620,
+      "provenance": "webflow-derivative",
+      "variants": [
+        {
+          "width": 480,
+          "format": "avif",
+          "file": "annemie-480.avif",
+          "bytes": 8953
+        },
+        {
+          "width": 480,
+          "format": "webp",
+          "file": "annemie-480.webp",
+          "bytes": 10384
+        },
+        {
+          "width": 768,
+          "format": "avif",
+          "file": "annemie-768.avif",
+          "bytes": 16392
+        },
+        {
+          "width": 768,
+          "format": "webp",
+          "file": "annemie-768.webp",
+          "bytes": 20144
+        },
+        {
+          "width": 1200,
+          "format": "avif",
+          "file": "annemie-1200.avif",
+          "bytes": 22341
+        },
+        {
+          "width": 1200,
+          "format": "webp",
+          "file": "annemie-1200.webp",
+          "bytes": 37122
+        },
+        {
+          "width": 1600,
+          "format": "avif",
+          "file": "annemie-1600.avif",
+          "bytes": 39379
+        },
+        {
+          "width": 1600,
+          "format": "webp",
+          "file": "annemie-1600.webp",
+          "bytes": 72060
+        }
+      ]
+    },
+    {
+      "slug": "ana-rita-marques-da-silva",
+      "source": "Ana-Rita Marques Da Silva - Laclinic Dental.webp",
+      "group": "portrait",
+      "intrinsic": {
+        "w": 1620,
+        "h": 1620,
+        "ratio": 1
+      },
+      "maxWidth": 1620,
+      "provenance": "webflow-derivative",
+      "variants": [
+        {
+          "width": 480,
+          "format": "avif",
+          "file": "ana-rita-marques-da-silva-480.avif",
+          "bytes": 11644
+        },
+        {
+          "width": 480,
+          "format": "webp",
+          "file": "ana-rita-marques-da-silva-480.webp",
+          "bytes": 13658
+        },
+        {
+          "width": 768,
+          "format": "avif",
+          "file": "ana-rita-marques-da-silva-768.avif",
+          "bytes": 22124
+        },
+        {
+          "width": 768,
+          "format": "webp",
+          "file": "ana-rita-marques-da-silva-768.webp",
+          "bytes": 27052
+        },
+        {
+          "width": 1200,
+          "format": "avif",
+          "file": "ana-rita-marques-da-silva-1200.avif",
+          "bytes": 32626
+        },
+        {
+          "width": 1200,
+          "format": "webp",
+          "file": "ana-rita-marques-da-silva-1200.webp",
+          "bytes": 46728
+        },
+        {
+          "width": 1600,
+          "format": "avif",
+          "file": "ana-rita-marques-da-silva-1600.avif",
+          "bytes": 47796
+        },
+        {
+          "width": 1600,
+          "format": "webp",
+          "file": "ana-rita-marques-da-silva-1600.webp",
+          "bytes": 70814
+        }
+      ]
+    },
+    {
+      "slug": "sina-esfandiari",
+      "source": "Sina Esfandiari - Laclinic Dental.webp",
+      "group": "portrait",
+      "intrinsic": {
+        "w": 1620,
+        "h": 1620,
+        "ratio": 1
+      },
+      "maxWidth": 1620,
+      "provenance": "webflow-derivative",
+      "variants": [
+        {
+          "width": 480,
+          "format": "avif",
+          "file": "sina-esfandiari-480.avif",
+          "bytes": 9167
+        },
+        {
+          "width": 480,
+          "format": "webp",
+          "file": "sina-esfandiari-480.webp",
+          "bytes": 10206
+        },
+        {
+          "width": 768,
+          "format": "avif",
+          "file": "sina-esfandiari-768.avif",
+          "bytes": 17142
+        },
+        {
+          "width": 768,
+          "format": "webp",
+          "file": "sina-esfandiari-768.webp",
+          "bytes": 20468
+        },
+        {
+          "width": 1200,
+          "format": "avif",
+          "file": "sina-esfandiari-1200.avif",
+          "bytes": 23148
+        },
+        {
+          "width": 1200,
+          "format": "webp",
+          "file": "sina-esfandiari-1200.webp",
+          "bytes": 35824
+        },
+        {
+          "width": 1600,
+          "format": "avif",
+          "file": "sina-esfandiari-1600.avif",
+          "bytes": 35835
+        },
+        {
+          "width": 1600,
+          "format": "webp",
+          "file": "sina-esfandiari-1600.webp",
+          "bytes": 60226
+        }
+      ]
+    }
+  ]
+}

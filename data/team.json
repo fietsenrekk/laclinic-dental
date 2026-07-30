@@ -1,0 +1,76 @@
+{
+  "_source": "Six people. Re-derived from /over-ons on 2026-07-30 by three independent checks: name occurrences across all pages, the rendered team block, and the portrait assets on the CDN. All three agree on six.",
+
+  "_briefDiscrepancy": "The build brief lists SEVEN team members including 'Mahsid Salehi — Algemene tandarts'. That person appears nowhere: zero name occurrences across all seven pages, no portrait asset, no entry in the team block. The brief also describes Katrien's bio as the best-written on the site, mentioning that she teaches spinning classes and has three years' experience — the string 'spinning' appears nowhere on the site and Katrien has no bio at all. Both recorded as B-001 in FINDINGS.md. Nothing has been written for a seventh person.",
+
+  "_bioPolicy": "Two of six have bios on the live site (Ludovic, Omid) — those are reproduced verbatim in substance. The other four have none. No personal facts have been invented for them. Instead each carries a factual description of what their specialty is, which is verifiable, useful to a patient choosing a clinician, and clearly not a fabricated personal claim. Real bios must come from the people themselves — see CLIENT_ACTIONS.md.",
+
+  "members": [
+    {
+      "slug": "ludovic-altermatt",
+      "name": "Dr. Ludovic Altermatt",
+      "roleNl": "Tandarts & implantoloog",
+      "roleEn": "Dentist & implantologist",
+      "portrait": "Dr. Ludovic Altermatt -Laclinic Dental.webp",
+      "hasBio": true,
+      "founder": true,
+      "bioNl": "Met meer dan vijftien jaar ervaring en een specialisatie in implantologie en esthetische tandheelkunde helpt Dr. Ludo patiënten om niet alleen een gezond, maar ook een mooi gebit te krijgen. Zijn oog voor detail en eerlijke aanpak zorgen ervoor dat elke behandeling zorgvuldig en op maat wordt uitgevoerd.",
+      "bioEn": "With more than fifteen years of experience and a specialisation in implantology and aesthetic dentistry, Dr. Ludo helps patients achieve teeth that are healthy as well as good-looking. His eye for detail and straightforward approach mean every treatment is carried out carefully and to measure.",
+      "factsNl": ["15+ jaar ervaring", "Specialisatie implantologie", "Specialisatie esthetische tandheelkunde"],
+      "factsEn": ["15+ years of experience", "Specialised in implantology", "Specialised in aesthetic dentistry"]
+    },
+    {
+      "slug": "omid-hadadian-moghadam",
+      "name": "Omid Hadadian Moghadam",
+      "roleNl": "Mondhygiënist",
+      "roleEn": "Dental hygienist",
+      "portrait": "Omid Hadadian Moghadam - Laclinic Dental.webp",
+      "hasBio": true,
+      "bioNl": "Omid is de specialist in preventieve zorg en mondhygiëne binnen de praktijk. Hij helpt patiënten om hun gebit gezond te houden en begeleidt hen bij het voorkomen van tandvleesproblemen. Met zijn passie voor parodontologie en de nieuwste innovaties weet hij elke behandeling efficiënt en comfortabel uit te voeren.",
+      "bioEn": "Omid is the practice's specialist in preventive care and oral hygiene. He helps patients keep their teeth healthy and guides them in preventing gum problems. With his interest in periodontology and in newer techniques, he carries out every treatment efficiently and comfortably.",
+      "factsNl": ["Preventieve zorg", "Mondhygiëne", "Parodontologie"],
+      "factsEn": ["Preventive care", "Oral hygiene", "Periodontology"]
+    },
+    {
+      "slug": "katrien-vr",
+      "name": "Katrien V.R",
+      "roleNl": "Tandartsassistente",
+      "roleEn": "Dental assistant",
+      "portrait": "Katrien - Laclinic Dental.webp",
+      "hasBio": false,
+      "roleAboutNl": "De tandartsassistente werkt naast de tandarts aan de stoel: ze bereidt instrumenten en materialen voor, assisteert tijdens de behandeling en zorgt dat alles steriel en klaar is voor de volgende patiënt. Voor veel patiënten is zij het eerste vertrouwde gezicht in de behandelkamer.",
+      "roleAboutEn": "The dental assistant works chairside alongside the dentist: preparing instruments and materials, assisting during treatment, and making sure everything is sterile and ready for the next patient. For many patients she is the first familiar face in the treatment room."
+    },
+    {
+      "slug": "annemie",
+      "name": "Annemie",
+      "roleNl": "Praktijkmanager",
+      "roleEn": "Practice manager",
+      "portrait": "Annemie - Laclinic Dental.webp",
+      "hasBio": false,
+      "roleAboutNl": "De praktijkmanager houdt de agenda, de administratie en de dagelijkse gang van zaken in handen. Dat is ook de reden dat afspraken hier kort op elkaar volgen zonder dat het gehaast aanvoelt: iemand plant dat bewust zo.",
+      "roleAboutEn": "The practice manager runs the diary, the administration and the day-to-day of the clinic. It is also why appointments here follow each other closely without feeling rushed: someone plans it that way on purpose."
+    },
+    {
+      "slug": "ana-rita-marques-da-silva",
+      "name": "Ana-Rita Marques Da Silva",
+      "roleNl": "Endodontoloog",
+      "roleEn": "Endodontist",
+      "portrait": "Ana-Rita Marques Da Silva - Laclinic Dental.webp",
+      "hasBio": false,
+      "roleAboutNl": "Een endodontoloog is gespecialiseerd in de binnenkant van de tand: het wortelkanaal en de zenuw. Wortelkanaalbehandelingen zijn haar vakgebied — precies het werk waar patiënten het meest tegenop zien, en precies daarom werk voor iemand die alleen dat doet.",
+      "roleAboutEn": "An endodontist specialises in the inside of the tooth: the root canal and the nerve. Root canal treatment is her field — precisely the work patients dread most, and precisely why it belongs to someone who does only that."
+    },
+    {
+      "slug": "sina-esfandiari",
+      "name": "Sina Esfandiari",
+      "roleNl": "Parodontoloog",
+      "roleEn": "Periodontist",
+      "portrait": "Sina Esfandiari - Laclinic Dental.webp",
+      "hasBio": false,
+      "_typoFixed": "F-006. The live site reads 'Paradontoloog'. The correct Dutch clinical term is 'Parodontoloog' — from parodontium, the tissue around the tooth. Corrected here and everywhere.",
+      "roleAboutNl": "Een parodontoloog behandelt het tandvlees en het bot rond de tand — het fundament waar de rest op staat. Tandvleesproblemen doen lang geen pijn en zijn daardoor makkelijk te negeren; ze zijn wel de meest voorkomende reden dat volwassenen tanden verliezen.",
+      "roleAboutEn": "A periodontist treats the gums and the bone around the tooth — the foundation everything else stands on. Gum problems stay painless for a long time and are easy to ignore; they are also the most common reason adults lose teeth."
+    }
+  ]
+}

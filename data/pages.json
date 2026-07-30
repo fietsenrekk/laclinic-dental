@@ -1,0 +1,179 @@
+{
+  "_source": "FAQ answers are the live site's own, kept deliberately close to the original. Their plainness about the cancellation fee, the payment methods and the conventie status is a brand asset and §17 says not to soften it.",
+
+  "faq": [
+    {
+      "id": "afspraak",
+      "qNl": "Hoe maak ik een afspraak?",
+      "qEn": "How do I make an appointment?",
+      "aNl": "Bel naar +32 3 430 68 28, of maak online een afspraak via ons afsprakenportaal. Beide staan op de afspraakpagina.",
+      "aEn": "Call +32 3 430 68 28, or book online through our appointment portal. Both are on the appointment page.",
+      "_changed": "The live answer says 'online via onze website'. The internal page is a callback request form, not a scheduler, and this build ships no forms backend — so the answer now names the two routes that actually complete a booking."
+    },
+    {
+      "id": "wachttijd",
+      "qNl": "Moet ik lang wachten op een afspraak?",
+      "qEn": "Will I have to wait long for an appointment?",
+      "aNl": "Nee. Wij hanteren geen patiëntenstop en plannen afspraken kort op elkaar in.",
+      "aEn": "No. We do not operate a patient stop, and appointments are scheduled close together.",
+      "_changed": "F-002. The live answer ends '…en bieden snelle en flexibele afspraken, ook op zaterdag', which contradicts the footer's ZAT Gesloten on the same page. The Saturday claim is removed pending client confirmation."
+    },
+    {
+      "id": "meenemen",
+      "qNl": "Wat moet ik meenemen naar mijn eerste afspraak?",
+      "qEn": "What should I bring to my first appointment?",
+      "aNl": "Je identiteitskaart, en recente RX-foto's van je vorige tandarts als je die hebt.",
+      "aEn": "Your ID card, and recent X-rays from your previous dentist if you have them."
+    },
+    {
+      "id": "parkeren",
+      "qNl": "Waar kan ik parkeren en hoe bereik ik de praktijk?",
+      "qEn": "Where can I park and how do I reach the practice?",
+      "aNl": "Betaalde parkeergarages op drie minuten wandelen: Hopland, Inno en Horta. Met het openbaar vervoer: Antwerpen Centraal ligt op vijftien minuten wandelen, de tram- en bushaltes Opera en Stadspark op vier.",
+      "aEn": "Paid car parks three minutes' walk away: Hopland, Inno and Horta. By public transport: Antwerpen Centraal is a fifteen-minute walk, and the Opera and Stadspark tram and bus stops are four minutes away."
+    },
+    {
+      "id": "behandelingen",
+      "qNl": "Welke behandelingen bieden jullie aan?",
+      "qEn": "Which treatments do you offer?",
+      "aNl": "Van preventieve controles tot esthetische en specialistische behandelingen. Een volledig overzicht staat bij de behandelingen.",
+      "aEn": "From preventive check-ups to aesthetic and specialist treatment. A full overview is on the treatments page.",
+      "_changed": "F-002 again — the live answer repeats the 'ook op zaterdag' claim a second time. Removed for the same reason."
+    },
+    {
+      "id": "betalen",
+      "qNl": "Welke betaalmethoden accepteren jullie?",
+      "qEn": "Which payment methods do you accept?",
+      "aNl": "Bancontact of contant. Geen kredietkaarten.",
+      "aEn": "Bancontact or cash. No credit cards."
+    },
+    {
+      "id": "annuleren",
+      "qNl": "Wat als ik mijn afspraak niet tijdig kan nakomen?",
+      "qEn": "What if I cannot make my appointment in time?",
+      "aNl": "Laat het minimaal 48 uur vooraf weten. Bij een te late annulering of een gemiste afspraak rekenen we een verzuimvergoeding van €45.",
+      "aEn": "Let us know at least 48 hours in advance. For a late cancellation or a missed appointment we charge a €45 no-show fee."
+    },
+    {
+      "id": "geconventioneerd",
+      "qNl": "Zijn jullie geconventioneerd?",
+      "qEn": "Are you conventioned?",
+      "aNl": "Nee. LACLINIC DENTAL is niet geconventioneerd, wat betekent dat wij niet met de vaste tarieven van het RIZIV werken. Een deel van de kosten wordt daardoor niet of maar gedeeltelijk terugbetaald. Wat een behandeling kost, hoor je vooraf.",
+      "aEn": "No. LACLINIC DENTAL is not conventioned, which means we do not work to the fixed RIZIV rates. Part of the cost is therefore not reimbursed, or only partly. What a treatment costs, you are told in advance.",
+      "_note": "Expanded from the live answer to explain what 'niet geconventioneerd' means for the patient's bill — most people do not know, and finding out at the desk is a bad experience the website can prevent (§13.5). The last sentence must be confirmed by the practice before launch."
+    }
+  ],
+
+  "chairside": {
+    "_note": "§13.1. The clinic's strongest differentiator, currently one sentence inside a paragraph on /over-ons.",
+    "titleNl": "Eén afspraak in plaats van drie",
+    "titleEn": "One appointment instead of three",
+    "leadNl": "Kronen, facetten en bleekbeugeltjes worden hier in de praktijk gemaakt.",
+    "leadEn": "Crowns, veneers and whitening trays are made here, in the practice.",
+    "metaNl": "Kronen en facings in één afspraak in Antwerpen — in de praktijk gefreesd.",
+    "metaEn": "Crowns and veneers in one appointment in Antwerp — milled in the practice.",
+    "bodyNl": [
+      "De gebruikelijke gang van zaken bij een kroon is dit: een afspraak om te slijpen en een afdruk te nemen, een tijdelijke kroon, een tandtechnisch labo dat er een week of twee over doet, en dan een tweede afspraak om te plaatsen. Soms een derde als er iets bijgesteld moet worden.",
+      "Hier gebeurt dat anders, omdat de apparatuur in huis staat. De tand wordt gescand in plaats van afgedrukt, het stuk wordt op de computer ontworpen, en het wordt in de praktijk uit een keramisch blok gefreesd terwijl je er bent.",
+      "Wat dat voor jou betekent, concreet: geen tijdelijke kroon die kan losschieten, geen tweede verdoving, en meestal geen tweede afspraak."
+    ],
+    "bodyEn": [
+      "The usual sequence for a crown is this: an appointment to prepare the tooth and take an impression, a temporary crown, a dental laboratory that takes a week or two, and then a second appointment to fit it. Sometimes a third if something needs adjusting.",
+      "Here it works differently, because the equipment is on site. The tooth is scanned rather than impressed, the piece is designed on screen, and it is milled from a ceramic block in the practice while you wait.",
+      "What that means for you, concretely: no temporary crown that can come loose, no second anaesthetic, and usually no second appointment."
+    ],
+    "stepsNl": [
+      { "n": "01", "t": "Scannen", "d": "Een digitale scan van de tand, in plaats van een afdruk in de mond." },
+      { "n": "02", "t": "Ontwerpen", "d": "Het stuk wordt op maat ontworpen, afgestemd op de tanden ernaast." },
+      { "n": "03", "t": "Frezen", "d": "Uit een keramisch blok gefreesd, hier in de praktijk." },
+      { "n": "04", "t": "Plaatsen", "d": "Passen, bijwerken waar nodig, en vastzetten. Dezelfde afspraak." }
+    ],
+    "stepsEn": [
+      { "n": "01", "t": "Scan", "d": "A digital scan of the tooth, instead of an impression in the mouth." },
+      { "n": "02", "t": "Design", "d": "The piece is designed to measure, matched to the teeth beside it." },
+      { "n": "03", "t": "Mill", "d": "Milled from a ceramic block, here in the practice." },
+      { "n": "04", "t": "Fit", "d": "Fitted, adjusted where needed, and bonded. Same appointment." }
+    ],
+    "caveatNl": "Niet elke situatie leent zich hiervoor. Bij een uitgebreide reconstructie of een bijzondere kleurstelling werken we alsnog met een labo — dat hoor je vooraf, niet achteraf.",
+    "caveatEn": "Not every situation is suited to this. For an extensive reconstruction or an unusual shade we still work with a laboratory — you are told that beforehand, not afterwards.",
+    "frame": "LACLINIC DENTAL -26.webp"
+  },
+
+  "firstVisit": {
+    "_note": "§13.6. Written for someone who is nervous.",
+    "titleNl": "Je eerste afspraak",
+    "titleEn": "Your first appointment",
+    "leadNl": "Wat er gebeurt, wat je meebrengt, en hoe lang het duurt.",
+    "leadEn": "What happens, what to bring, and how long it takes.",
+    "metaNl": "Eerste afspraak bij LACLINIC DENTAL in Antwerpen — wat je kunt verwachten.",
+    "metaEn": "First appointment at LACLINIC DENTAL in Antwerp — what to expect.",
+    "bodyNl": [
+      "Een eerste afspraak is een kennismaking en een controle. We kijken je mond na, bespreken wat je zelf opmerkt, en nemen waar nodig een RX-foto.",
+      "Er wordt op een eerste afspraak zelden meteen behandeld, tenzij je met pijn komt. Meestal eindigt het met een plan: wat er moet gebeuren, in welke volgorde, en wat het kost.",
+      "Kom je met tandartsangst? Zeg dat bij het maken van de afspraak. Dan wordt daar tijd voor ingepland, en dan gebeurt er op de eerste afspraak niets waar je niet op voorbereid bent."
+    ],
+    "bodyEn": [
+      "A first appointment is an introduction and a check-up. We examine your mouth, discuss anything you have noticed yourself, and take an X-ray where needed.",
+      "Treatment rarely happens at a first appointment, unless you come in with pain. It usually ends with a plan: what needs doing, in what order, and what it costs.",
+      "Anxious about the dentist? Say so when you book. Time gets scheduled for it, and nothing happens at the first appointment that you have not been prepared for."
+    ]
+  },
+
+  "practice": {
+    "titleNl": "De praktijk",
+    "titleEn": "The practice",
+    "leadNl": "Frankrijklei 86b. Sinds 2024.",
+    "leadEn": "Frankrijklei 86b. Since 2024.",
+    "metaNl": "De praktijk van LACLINIC DENTAL aan de Frankrijklei in Antwerpen.",
+    "metaEn": "The LACLINIC DENTAL practice on Frankrijklei in Antwerp.",
+    "bodyNl": [
+      "LACLINIC DENTAL werd in 2024 opgericht door Dr. Ludovic Altermatt. Hij studeerde in Nancy, legde zich toe op implantologie en esthetische tandheelkunde, en had een praktijk in Luxemburg voor hij naar Antwerpen kwam.",
+      "De praktijk ligt aan de Frankrijklei, op wandelafstand van Centraal en het Stadspark. Er werken zes mensen: twee behandelaars met een eigen specialisatie, een mondhygiënist, een endodontoloog, een parodontoloog, een assistente en een praktijkmanager.",
+      "De inrichting is bewust rustig gehouden. Wachten hoort er zo min mogelijk bij — de agenda wordt daarop gepland — maar als je wacht, is het een plek waar dat te doen is."
+    ],
+    "bodyEn": [
+      "LACLINIC DENTAL was founded in 2024 by Dr. Ludovic Altermatt. He studied in Nancy, specialised in implantology and aesthetic dentistry, and ran a practice in Luxembourg before coming to Antwerp.",
+      "The practice is on Frankrijklei, walking distance from Centraal and the Stadspark. Six people work here: practitioners with their own specialisations, a dental hygienist, an endodontist, a periodontist, an assistant and a practice manager.",
+      "The interior is deliberately kept calm. Waiting is meant to be a small part of it — the diary is planned that way — but if you do wait, it is a place where that is bearable."
+    ],
+    "frames": ["LACLINIC DENTAL -08.webp", "LACLINIC DENTAL -53.webp", "LACLINIC DENTAL -59.webp"]
+  },
+
+  "jobs": {
+    "titleNl": "Werken bij LACLINIC",
+    "titleEn": "Working at LACLINIC",
+    "leadNl": "Open sollicitaties zijn welkom.",
+    "leadEn": "Open applications are welcome.",
+    "metaNl": "Vacatures en open sollicitaties bij LACLINIC DENTAL in Antwerpen.",
+    "metaEn": "Vacancies and open applications at LACLINIC DENTAL in Antwerp.",
+    "bodyNl": [
+      "Er staan op dit moment geen specifieke vacatures online. Dat betekent niet dat er geen ruimte is — de praktijk groeit sinds 2024 en er komt geregeld iets bij.",
+      "Ben je tandarts, mondhygiënist, assistent of specialist en lijkt dit je een plek waar je wil werken? Stuur een bericht naar laclinicdental@gmail.com."
+    ],
+    "bodyEn": [
+      "There are no specific vacancies posted at the moment. That does not mean there is no room — the practice has been growing since 2024 and openings come up regularly.",
+      "Are you a dentist, hygienist, assistant or specialist, and does this look like a place you would want to work? Send a message to laclinicdental@gmail.com."
+    ],
+    "_note": "The live /jobs page content could not be read as structured copy. This is written from what is verifiable (founded 2024, six staff, the public email). Must be confirmed or replaced by the practice — see CLIENT_ACTIONS.md."
+  },
+
+  "pricing": {
+    "_note": "§17 and F-012. Belgian rules on advertising dental and aesthetic-dental care govern price publication, and aesthetic treatments sit under tighter restrictions. No prices are published. This page explains the two things that are verifiably true and that patients most need — the conventie status and the cancellation fee — and is structured so a price table can be dropped in without redesign once the practice confirms what may lawfully be published.",
+    "titleNl": "Wat het kost",
+    "titleEn": "What it costs",
+    "leadNl": "Niet geconventioneerd. Wat dat voor je rekening betekent.",
+    "leadEn": "Not conventioned. What that means for your bill.",
+    "metaNl": "Tarieven en terugbetaling bij LACLINIC DENTAL — niet geconventioneerd, uitgelegd.",
+    "metaEn": "Fees and reimbursement at LACLINIC DENTAL — not conventioned, explained.",
+    "bodyNl": [
+      "LACLINIC DENTAL is niet geconventioneerd. Dat is een keuze die veel praktijken maken, maar lang niet iedereen weet wat het betekent, en je wil er niet aan de balie achterkomen.",
+      "Geconventioneerde tandartsen werken met tarieven die met het RIZIV zijn afgesproken. Niet-geconventioneerde tandartsen bepalen hun eigen tarief. Je ziekenfonds betaalt in beide gevallen een bedrag terug, maar dat bedrag is gebaseerd op het RIZIV-tarief — het verschil met wat je hier betaalt, is voor jou.",
+      "Wat een behandeling bij ons kost, hoor je vooraf. Bij een traject dat over meerdere afspraken loopt, krijg je een plan met de stappen erin voordat er iets begint."
+    ],
+    "bodyEn": [
+      "LACLINIC DENTAL is not conventioned. Plenty of practices make that choice, but not everyone knows what it means — and you do not want to find out at the desk.",
+      "Conventioned dentists work to rates agreed with the RIZIV. Non-conventioned dentists set their own. Your health insurance fund reimburses an amount either way, but that amount is based on the RIZIV rate — the difference against what you pay here is yours.",
+      "What a treatment costs here, you are told beforehand. For a course running over several appointments, you get a plan with the steps in it before anything starts."
+    ]
+  }
+}

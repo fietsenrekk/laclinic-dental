@@ -1,0 +1,95 @@
+{
+  "_source": "Every value re-derived from the live laclinicdental.com pages on 2026-07-30. Where the live site contradicts itself the conflict is recorded, not silently resolved.",
+
+  "name": "LACLINIC DENTAL",
+  "legalName": "Tandarts Altermatt SRL",
+  "vat": "BE 0800.949.487",
+  "founded": "2024",
+
+  "address": {
+    "street": "Frankrijklei 86b",
+    "streetRaw": "86b Frankrijklei",
+    "postalCode": "2000",
+    "city": "Antwerpen",
+    "country": "BE",
+    "countryName": "België",
+    "lat": 51.2157226,
+    "lon": 4.4133905,
+    "_geo": "Taken from the Google Maps embed on /afspraak-maken (place: LACLINIC Dental)."
+  },
+
+  "phone": "+32 3 430 68 28",
+  "phoneHref": "tel:+3234306828",
+  "email": "laclinicdental@gmail.com",
+
+  "hours": {
+    "_conflict": "F-002. The footer states ZAT Gesloten on every page. The FAQ states 'ook op zaterdag' twice, on / and on /afspraak-maken. Resolved to CLOSED on the footer's authority — it is the structured, deliberate statement, and the failure mode is safe. Requires client confirmation before launch; see CLIENT_ACTIONS.md.",
+    "_resolvedTo": "closed-saturday",
+    "days": [
+      { "day": "Maandag", "dayEn": "Monday", "schema": "Monday", "open": "08:30", "close": "18:00" },
+      { "day": "Dinsdag", "dayEn": "Tuesday", "schema": "Tuesday", "open": "08:30", "close": "18:00" },
+      { "day": "Woensdag", "dayEn": "Wednesday", "schema": "Wednesday", "open": "08:30", "close": "18:00" },
+      { "day": "Donderdag", "dayEn": "Thursday", "schema": "Thursday", "open": "08:30", "close": "18:00" },
+      { "day": "Vrijdag", "dayEn": "Friday", "schema": "Friday", "open": "08:30", "close": "18:00" },
+      { "day": "Zaterdag", "dayEn": "Saturday", "schema": "Saturday", "closed": true },
+      { "day": "Zondag", "dayEn": "Sunday", "schema": "Sunday", "closed": true }
+    ],
+    "summaryNl": "Maandag t/m vrijdag, 08:30–18:00",
+    "summaryEn": "Monday to Friday, 08:30–18:00"
+  },
+
+  "booking": {
+    "_conflict": "F-003. The homepage renders two hero variants pointing at two different destinations: /afspraak-maken (desktop) and the Doctena listing (mobile). Same label, two targets.",
+    "_resolvedTo": "internal-page-canonical",
+    "_note": "Every CTA on this site points at the internal /afspraak-maken route. That page carries the two routes that work without a backend: phone, and the Doctena scheduler. The live site's own form is a callback request, not a scheduler — it collects details and the practice rings back — and this build ships no forms backend (§12).",
+    "canonicalPath": "afspraak-maken",
+    "doctena": "https://www.doctena.be/nl/praktijk/antwerpen/la-clinic-dental-430359",
+    "doctenaHost": "https://www.doctena.be"
+  },
+
+  "practical": {
+    "parking": [
+      { "name": "Hopland", "walk": 3 },
+      { "name": "Inno", "walk": 3 },
+      { "name": "Horta", "walk": 3 }
+    ],
+    "parkingNote": "Betaalde parkeergarages op drie minuten wandelen.",
+    "transit": [
+      { "name": "Antwerpen Centraal", "mode": "trein", "modeEn": "train", "walk": 15 },
+      { "name": "Opera", "mode": "tram en bus", "modeEn": "tram and bus", "walk": 4 },
+      { "name": "Stadspark", "mode": "tram en bus", "modeEn": "tram and bus", "walk": 4 }
+    ],
+    "bring": ["identiteitskaart", "recente RX-foto's van je vorige tandarts, als je die hebt"],
+    "bringEn": ["your ID card", "recent X-rays from your previous dentist, if you have them"],
+    "payment": ["Bancontact", "contant"],
+    "paymentEn": ["Bancontact", "cash"],
+    "paymentNote": "Geen kredietkaarten.",
+    "paymentNoteEn": "No credit cards.",
+    "cancellation": { "hours": 48, "fee": 45 },
+    "conventie": false
+  },
+
+  "social": [
+    { "name": "Instagram", "url": "https://www.instagram.com/laclinicdental/" },
+    { "name": "TikTok", "url": "https://www.tiktok.com/@laclinicdental" },
+    { "name": "LinkedIn", "url": "https://www.linkedin.com/company/laclinic-dental/" }
+  ],
+
+  "differentiators": {
+    "_note": "Facts, not adjectives (§8.1 #6). Each is checkable against the live site or the practice itself.",
+    "noWaitlist": {
+      "nl": "Geen wachtlijst, geen patiëntenstop.",
+      "en": "No waiting list, no patient stop.",
+      "sourceNl": "Nee, wij hanteren geen patiëntenstop en bieden snelle en flexibele afspraken."
+    },
+    "chairside": {
+      "nl": "Kronen en facetten in de praktijk gemaakt.",
+      "en": "Crowns and veneers made in the practice.",
+      "sourceNl": "Dankzij de nieuwste apparatuur kunnen we kronen, facetten en bleachingbeugeltjes direct in de praktijk vervaardigen."
+    },
+    "central": {
+      "nl": "Frankrijklei. Parking op drie minuten, Centraal op vijftien.",
+      "en": "Frankrijklei. Parking three minutes away, Centraal fifteen."
+    }
+  }
+}
